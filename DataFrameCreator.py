@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import os
 
 
 def get_week_data(week):
@@ -62,8 +63,14 @@ def build_week_dataframe(week):
     return pd.DataFrame(all_rows)
 
 
-def create_df():
-    df = build_week_dataframe(1)
+def create_df(week=1, use_cache=True):
+    cache_file = f"cache_week_{week}.pkl"
+
+    if use_cache and os.path.exists(cache_file):
+        return pd.read_pickle(cache_file)
+
+
+    df = build_week_dataframe(week)
 
     df_pivot = df.pivot_table(
         index=["game_id", "player", "team"],
@@ -80,12 +87,18 @@ def create_df():
     df_pivot = df_pivot.dropna(how="all")
     df_pivot = df_pivot.dropna(axis=1, how="all")
 
-    keep_cols = [col for col in df_pivot.columns if any(x in col for x in ["passing", "rushing", "receiving"])
-                 or col in ["game_id", "player", "team"]]
+    keep_cols = [
+        col for col in df_pivot.columns
+        if any(x in col for x in ["passing", "rushing", "receiving"])
+        or col in ["game_id", "player", "team"]
+    ]
 
     df_pivot = df_pivot[keep_cols]
 
-    pd.set_option("display.max_columns", None)
-    print(df_pivot)
     df_pivot = df_pivot.sort_values(['team'])
+
+    df_pivot.to_pickle(cache_file)
+
     return df_pivot
+
+print(create_df())
