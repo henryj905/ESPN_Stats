@@ -21,9 +21,3 @@ def get_player_id(player_name):
     result = df.loc[df['player_name'] == player_name, 'player_id']
 
     return result.iloc[0]
-
-if __name__ == "__main__":
-    team = input("Team? city and team first letter caps\n")
-    print(show_team(team))
-    player = input("\nPlayer full name (first letter caps):\n")
-    print(get_player_id(player))
