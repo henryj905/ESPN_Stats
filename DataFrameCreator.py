@@ -89,4 +89,3 @@ def create_df():
     print(df_pivot)
     df_pivot = df_pivot.sort_values(['team'])
     return df_pivot
-
