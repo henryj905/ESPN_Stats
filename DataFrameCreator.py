@@ -58,6 +58,7 @@ def build_week_dataframe(week):
 
     for event in week_data["events"]:
         game_id = event["id"]
+        print(game_id)
         all_rows.extend(extract_player_stats(game_id))
 
     return pd.DataFrame(all_rows)
