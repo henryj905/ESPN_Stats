@@ -101,4 +101,10 @@ def create_df(week=1, use_cache=True):
 
     return df_pivot
 
-print(create_df())
+def get_passing(df):
+    for _, row in df.iterrows():
+        if pd.notna(row["passing_YDS"]):
+            print(row)
+
+pd.set_option("display.max_columns", None)
+print(get_passing(create_df()))
