@@ -3,9 +3,9 @@ import pandas as pd
 import os
 
 
-def get_week_data(week):
+def get_week_data(year, week):
     url = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
-    return requests.get(url, params={"seasontype": 2, "week": week}).json()
+    return requests.get(url, params={"dates": year, "seasontype": 2, "week": week}).json()
 
 
 def get_game_summary(game_id):
@@ -13,99 +13,131 @@ def get_game_summary(game_id):
     return requests.get(url).json()
 
 
-def extract_player_stats(game_id):
-    game = get_game_summary(game_id)
-
-    rows = []
-
-    if "boxscore" not in game:
-        return rows
-
-    for team in game["boxscore"]["players"]:
-        team_name = team["team"]["displayName"]
-
-        for stat_group in team.get("statistics", []):
-
-            stat_type = stat_group.get("name")  # 👈 THIS is the key fix
-
-            for athlete in stat_group.get("athletes", []):
-
-                player = athlete.get("athlete", {})
-                stats = athlete.get("stats", [])
-                labels = stat_group.get("labels", [])
-
-                row = {
-                    "game_id": game_id,
-                    "team": team_name,
-                    "player": player.get("displayName"),
-                    "position": player.get("position", {}).get("abbreviation"),
-                    "stat_type": stat_type   # 👈 ADD THIS
-                }
-
-                for i, value in enumerate(stats):
-                    if i < len(labels):
-                        row[labels[i]] = value
-
-                rows.append(row)
-
-    return rows
+dataframe_cache = {}
+# creates a dataframe with columns: game_id, home_team, away_team
+# Input week returns matchups for given input
 
 
-def build_week_dataframe(week):
-    week_data = get_week_data(week)
+def gameidhomeaway(year, week):
+    # If we already created this week, return the saved dataframe
+    if week in dataframe_cache:
+        return dataframe_cache[week]
+    game_id_list = []
+    home_list = []
+    home_abbr_list = []
+    away_list = []
+    away_abbr_list = []
 
-    all_rows = []
+    all_game_data = get_week_data(year, week)
 
-    for event in week_data["events"]:
-        game_id = event["id"]
-        print(game_id)
-        all_rows.extend(extract_player_stats(game_id))
+    for x in all_game_data['events']:
+        game_id_list.append(x['id'])
 
-    return pd.DataFrame(all_rows)
+        teams = x['name'].split(' at ')
+        home_list.append(teams[1])
+        away_list.append(teams[0])
+
+        teams_abbr = x['shortName'].replace(' VS ', ' @ ').split(" @ ")
+        home_abbr_list.append(teams_abbr[1])
+        away_abbr_list.append(teams_abbr[0])
+
+    d = {"game_id": game_id_list, "home_team": home_list, "home_abbr": home_abbr_list,
+         "away_team": away_list, "away_abbr": away_abbr_list}
+    df = pd.DataFrame(data=d)
+    dataframe_cache[week] = df
+
+    return df
 
 
-def create_df(week=1, use_cache=True):
-    cache_file = f"cache_week_{week}.pkl"
+# gathers a list of all teams abbreviations
+def getonlyabbreviations(year):
+    all_game_data = get_week_data(year, 1)
+    unsplit = []
+    abbreviations = []
+    for x in all_game_data['events']:
+        unsplit.append(x['shortName'])
+    for matchup in unsplit:
+        individual = matchup.replace(" VS ", " @ ").split(" @ ")
+        for z in range(0, 2):
+            abbreviations.append(individual[z])
+    return abbreviations
 
-    if use_cache and os.path.exists(cache_file):
-        return pd.read_pickle(cache_file)
+
+def getonlyteams(year):
+    all_game_data = get_week_data(year, 1)
+    unsplit = []
+    teams = []
+    for x in all_game_data['events']:
+        unsplit.append(x['name'])
+    for matchup in unsplit:
+        individual = matchup.split(" at ")
+        for z in range(0, 2):
+            teams.append(individual[z])
+    return teams
 
 
-    df = build_week_dataframe(week)
+def schedulesdf(year, team_abbr_list):
 
-    df_pivot = df.pivot_table(
-        index=["game_id", "player", "team"],
-        columns="stat_type",
-        aggfunc="first"
-    )
+    cache_folder = "cache"
+    cache_file = f"{cache_folder}/schedule_{year}.csv"
 
-    df_pivot.columns = [
-        f"{stat}_{col}" for col, stat in df_pivot.columns
-    ]
+    # Create cache folder if it does not exist
+    if not os.path.exists(cache_folder):
+        os.makedirs(cache_folder)
 
-    df_pivot = df_pivot.reset_index()
+    # Load saved schedule if it already exists
+    if os.path.exists(cache_file):
+        return pd.read_csv(cache_file)
 
-    df_pivot = df_pivot.dropna(how="all")
-    df_pivot = df_pivot.dropna(axis=1, how="all")
+    user_team = []
+    home_away_list = []
+    opponents = []
+    week_list = []
 
-    keep_cols = [
-        col for col in df_pivot.columns
-        if any(x in col for x in ["passing", "rushing", "receiving"])
-        or col in ["game_id", "player", "team"]
-    ]
+    for team_abbr in team_abbr_list:
 
-    df_pivot = df_pivot[keep_cols]
+        for week in range(1, 19):
+            week_list.append(week)
+            user_team.append(team_abbr)
 
-    df_pivot = df_pivot.sort_values(['team'])
+            games = gameidhomeaway(year, week)
 
-    df_pivot.to_pickle(cache_file)
+            found = False
 
-    return df_pivot
+            for _, game in games.iterrows():
+                if team_abbr == game['away_abbr']:
+                    home_away_list.append("away")
+                    opponents.append(game['home_abbr'])
+                    found = True
+                    break
 
-def get_passing(df):
-    for _, row in df.iterrows():
-        if pd.notna(row["passing_YDS"]):
-            print(row)
+                elif team_abbr == game['home_abbr']:
+                    home_away_list.append("home")
+                    opponents.append(game['away_abbr'])
+                    found = True
+                    break
 
-pd.set_option("display.max_columns", None)
-print(get_passing(create_df()))
+            if not found:
+                home_away_list.append("BYE")
+                opponents.append("BYE")
+
+    df_schedule = {
+        "week": week_list,
+        "user_team": user_team,
+        "matchup": opponents,
+        "home_away": home_away_list
+    }
+
+    df = pd.DataFrame(data=df_schedule)
+    df = df.sort_values(["user_team", "week"])
+
+    # Save schedule to CSV
+    df.to_csv(cache_file, index=False)
+
+    return df
+
+
+if __name__ == "__main__":
+    year = 2026
+    data = schedulesdf(year, getonlyabbreviations(year))
+    print(data[data['user_team'] == 'WSH'])
