@@ -20,8 +20,8 @@ dataframe_cache = {}
 
 def gameidhomeaway(year, week):
     # If we already created this week, return the saved dataframe
-    if week in dataframe_cache:
-        return dataframe_cache[week]
+    if (year, week) in dataframe_cache:
+        return dataframe_cache[(year, week)]
     game_id_list = []
     home_list = []
     home_abbr_list = []
@@ -44,7 +44,7 @@ def gameidhomeaway(year, week):
     d = {"game_id": game_id_list, "home_team": home_list, "home_abbr": home_abbr_list,
          "away_team": away_list, "away_abbr": away_abbr_list}
     df = pd.DataFrame(data=d)
-    dataframe_cache[week] = df
+    dataframe_cache[(year, week)] = df
 
     return df
 
@@ -151,8 +151,3 @@ def single_team_schedule(year, team_abbr):
     team_schedule = df[df["user_team"] == team_abbr]
 
     return team_schedule
-
-
-if __name__ == "__main__":
-    year = 2026
-    print(single_team_schedule(year, "WSH"))
