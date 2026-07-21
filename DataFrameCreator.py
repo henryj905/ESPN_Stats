@@ -137,7 +137,22 @@ def schedulesdf(year, team_abbr_list):
     return df
 
 
+def single_team_schedule(year, team_abbr):
+
+    cache_folder = "cache"
+    cache_file = f"{cache_folder}/schedule_{year}.csv"
+
+    if os.path.exists(cache_file):
+        df = pd.read_csv(cache_file)
+
+    else:
+        df = schedulesdf(year, getonlyabbreviations(year))
+
+    team_schedule = df[df["user_team"] == team_abbr]
+
+    return team_schedule
+
+
 if __name__ == "__main__":
     year = 2026
-    data = schedulesdf(year, getonlyabbreviations(year))
-    print(data[data['user_team'] == 'WSH'])
+    print(single_team_schedule(year, "WSH"))
