@@ -1,0 +1,34 @@
+team,player,category,INT,YDS,TD
+ARI,Sean Murphy-Bunting,interceptions,1,2,0
+ATL,Jessie Bates III,interceptions,1,0,0
+ATL,Justin Simmons,interceptions,1,0,0
+BAL,Ar'Darius Washington,interceptions,1,32,0
+CHI,Tyrique Stevenson,interceptions,1,0,0
+CIN,Geno Stone,interceptions,1,39,1
+CIN,Cam Taylor-Britt,interceptions,1,28,0
+CIN,Josh Newton,interceptions,1,12,0
+CIN,Mike Hilton,interceptions,1,0,0
+DAL,Eric Kendricks,interceptions,1,7,0
+DAL,Israel Mukuamu,interceptions,1,15,0
+DEN,Brandon Jones,interceptions,1,0,0
+DEN,Pat Surtain II,interceptions,1,4,0
+GB,Edgerrin Cooper,interceptions,1,22,0
+GB,Carrington Valentine,interceptions,1,20,0
+HOU,Derek Stingley Jr.,interceptions,2,10,0
+HOU,Calen Bullock,interceptions,1,68,0
+IND,Nick Cross,interceptions,1,5,0
+IND,Zaire Franklin,interceptions,1,4,0
+IND,Samuel Womack III,interceptions,1,0,0
+KC,Trent McDuffie,interceptions,1,0,0
+KC,Nick Bolton,interceptions,1,0,0
+KC,Bryan Cook,interceptions,1,0,0
+KC,Jaden Hicks,interceptions,1,47,0
+LAC,Tarheeb Still,interceptions,1,18,0
+LAR,Darious Williams,interceptions,1,0,0
+LV,Robert Spillane,interceptions,1,0,0
+NYJ,Jalen Mills,interceptions,1,0,0
+NYJ,Sauce Gardner,interceptions,1,0,0
+TB,Jamel Dean,interceptions,1,0,0
+TEN,Luke Gifford,interceptions,1,0,0
+TEN,Daryl Worley,interceptions,1,0,0
+WSH,Mike Sainristil,interceptions,1,0,0

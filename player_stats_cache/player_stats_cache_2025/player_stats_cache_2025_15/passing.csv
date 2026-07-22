@@ -1,0 +1,37 @@
+team,player,category,C/ATT,YDS,AVG,TD,INT,SACKS,QBR,RTG
+ARI,Jacoby Brissett,passing,27/40,249,6.2,3,1,2-14,53.4,98.9
+ATL,Kirk Cousins,passing,30/44,373,8.5,3,0,1-8,64.5,117.0
+BAL,Lamar Jackson,passing,8/12,150,12.5,2,1,4-22,68.2,114.6
+BUF,Josh Allen,passing,19/28,193,6.9,3,0,2-12,82.6,123.1
+CAR,Bryce Young,passing,15/24,163,6.8,1,0,1-9,77.3,96.4
+CHI,Caleb Williams,passing,17/28,242,8.6,2,0,3-23,67.8,112.5
+CIN,Joe Burrow,passing,25/39,225,5.8,0,2,3-27,17.3,58.2
+CLE,Shedeur Sanders,passing,18/35,177,5.1,0,3,5-35,6.5,30.3
+DAL,Dak Prescott,passing,23/38,294,7.7,0,0,2-9,65.9,84.8
+DEN,Bo Nix,passing,23/34,302,8.9,4,0,0-0,86.8,134.7
+DET,Jared Goff,passing,25/41,338,8.2,3,0,1-12,88.2,111.6
+GB,Jordan Love,passing,24/40,276,6.9,1,2,3-29,76.4,68.3
+HOU,C.J. Stroud,passing,22/29,260,9.0,3,0,1-4,57.0,137.1
+IND,Philip Rivers,passing,18/27,120,4.4,1,1,1-2,52.2,73.1
+JAX,Trevor Lawrence,passing,20/32,330,10.3,5,0,0-0,96.0,136.7
+KC,Patrick Mahomes,passing,16/28,189,6.8,0,1,5-21,56.1,62.9
+KC,Gardner Minshew II,passing,3/5,22,4.4,0,1,0-0,34.5,30.8
+LAC,Justin Herbert,passing,19/29,210,7.2,1,1,4-9,53.8,84.0
+LAR,Matthew Stafford,passing,24/38,368,9.7,2,1,2-8,73.9,101.6
+LV,Kenny Pickett,passing,15/25,64,2.6,0,1,4-35,5.5,47.9
+MIA,Tua Tagovailoa,passing,22/28,253,9.0,2,1,4-31,12.2,113.2
+MIN,J.J. McCarthy,passing,15/24,250,10.4,2,1,0-0,84.9,108.0
+NE,Drake Maye,passing,14/23,155,6.7,0,1,3-16,63.4,62.8
+NO,Tyler Shough,passing,24/32,272,8.5,1,0,5-16,59.9,110.4
+NO,Spencer Rattler,passing,0/1,0,0.0,0,0,0-0,11.9,39.6
+NYG,Jaxson Dart,passing,20/36,246,6.8,2,1,1-8,35.3,83.8
+NYG,Jameis Winston,passing,0/1,0,0.0,0,0,0-0,0.5,39.6
+NYJ,Brady Cook,passing,22/33,176,5.3,1,3,3-22,47.7,52.1
+PHI,Jalen Hurts,passing,12/15,175,11.7,3,0,1-4,96.9,154.9
+PHI,Tanner McKee,passing,3/3,33,11.0,0,0,0-0,100.0,112.5
+PIT,Aaron Rodgers,passing,23/27,224,8.3,2,0,3-23,56.2,125.9
+SEA,Sam Darnold,passing,22/36,271,7.5,0,0,1-7,39.8,84.4
+SF,Brock Purdy,passing,23/30,295,9.8,3,0,2-3,85.9,140.3
+TB,Baker Mayfield,passing,19/34,277,8.1,2,1,5-27,51.7,90.0
+TEN,Cam Ward,passing,18/29,170,5.9,2,0,0-0,37.4,101.2
+WSH,Marcus Mariota,passing,10/19,211,11.1,1,0,2-16,34.2,109.8

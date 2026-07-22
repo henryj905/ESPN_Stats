@@ -1,0 +1,41 @@
+team,player,category,C/ATT,YDS,AVG,TD,INT,SACKS,QBR,RTG
+ARI,Kyler Murray,passing,22/35,159,4.5,1,0,1-5,53.0,82.9
+ATL,Michael Penix Jr.,passing,18/36,172,4.8,0,2,0-0,9.1,40.5
+ATL,Kirk Cousins,passing,5/7,29,4.1,0,0,0-0,7.9,78.9
+BAL,Lamar Jackson,passing,21/27,288,10.7,3,0,7-55,73.5,148.1
+BAL,Derrick Henry,passing,0/1,0,0.0,0,0,0-0,15.4,39.6
+BUF,Josh Allen,passing,22/28,213,7.6,3,0,2-10,66.6,134.1
+CAR,Bryce Young,passing,16/24,121,5.0,0,0,1-7,71.2,78.6
+CHI,Caleb Williams,passing,19/28,298,10.6,4,0,0-0,88.2,142.6
+CIN,Jake Browning,passing,19/27,140,5.2,1,2,3-20,26.2,63.8
+CIN,Brett Rypien,passing,0/0,0,0.0,0,0,1-2,0.0,0.0
+CLE,Joe Flacco,passing,21/36,142,3.9,0,1,2-17,26.6,55.6
+DAL,Joe Milton III,passing,3/5,41,8.2,0,1,0-0,31.2,46.7
+DAL,Dak Prescott,passing,31/40,251,6.3,1,2,2-17,36.1,80.3
+DEN,Bo Nix,passing,14/25,153,6.1,1,0,2-6,43.9,87.6
+DET,Jared Goff,passing,20/28,202,7.2,1,0,0-0,71.7,103.6
+GB,Jordan Love,passing,18/25,183,7.3,1,1,5-34,56.4,89.2
+HOU,C.J. Stroud,passing,25/38,204,5.4,1,2,2-20,51.8,66.1
+IND,Daniel Jones,passing,18/25,228,9.1,1,0,0-0,92.1,113.4
+JAX,Trevor Lawrence,passing,20/40,222,5.6,0,1,2-17,38.6,56.5
+KC,Patrick Mahomes,passing,22/37,224,6.1,1,0,2-23,50.8,85.9
+LAC,Justin Herbert,passing,28/47,300,6.4,1,1,5-30,47.1,76.6
+LAR,Joshua Karty,passing,0/1,0,0.0,0,0,0-0,0.0,39.6
+LAR,Matthew Stafford,passing,19/33,196,5.9,2,1,1-0,68.1,82.4
+LV,Geno Smith,passing,19/29,289,10.0,3,0,5-28,69.0,132.7
+MIA,Tua Tagovailoa,passing,22/34,146,4.3,2,1,0-0,73.1,81.2
+MIN,Max Brosmer,passing,2/4,29,7.3,0,0,0-0,2.0,74.0
+MIN,Carson Wentz,passing,14/20,173,8.7,2,0,3-19,22.9,129.8
+NE,Drake Maye,passing,28/37,268,7.2,2,1,5-18,63.4,102.1
+NO,Spencer Rattler,passing,28/39,218,5.6,1,1,2-13,51.3,83.1
+NO,Tyler Shough,passing,0/2,0,0.0,0,0,0-0,3.5,39.6
+NYG,Russell Wilson,passing,18/32,160,5.0,0,2,2-9,5.4,43.8
+NYJ,Tyrod Taylor,passing,26/36,197,5.5,2,1,4-29,47.6,92.0
+PHI,Jalen Hurts,passing,21/32,226,7.1,3,0,4-24,59.9,117.4
+PIT,Aaron Rodgers,passing,16/23,139,6.0,2,1,0-0,49.2,96.1
+SEA,Sam Darnold,passing,14/18,218,12.1,2,0,0-0,98.1,154.2
+SEA,Drew Lock,passing,2/3,15,5.0,0,0,0-0,5.6,78.5
+SF,Mac Jones,passing,27/41,284,6.9,1,1,1-2,56.5,83.8
+TB,Baker Mayfield,passing,19/29,233,8.0,1,0,1-8,60.6,101.7
+TEN,Cam Ward,passing,23/38,219,5.8,1,1,4-23,26.9,74.3
+WSH,Marcus Mariota,passing,15/21,207,9.9,1,0,1-8,55.9,118.6
