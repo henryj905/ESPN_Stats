@@ -1,5 +1,6 @@
 import streamlit as st
-
+import pandas as pd
+import os
 from Schedule import single_team_schedule, getonlyabbreviations
 from player_stats import (
     get_passing,
@@ -67,52 +68,133 @@ if mode == "Schedule":
 
 elif mode == "Stats":
 
-    st.write("Select a season, week, and category")
+    st.write("Select what type of stats you want to view")
 
-    # Year selection
-    year = st.selectbox(
-        "Select Year",
-        [2025, 2024]
-    )
-
-    # Week selection
-    week = st.selectbox(
-        "Select Week",
-        list(range(1, 19))
-    )
-
-    # Category selection
-    category = st.selectbox(
-        "Select Category",
+    stats_type = st.selectbox(
+        "Stats Type",
         [
-            "Passing",
-            "Rushing",
-            "Receiving",
-            "Defense",
-            "Kicking",
-            "Punting"
+            "Weekly Stats",
+            "Season Totals"
         ]
     )
 
-    # Map categories to functions
-    category_functions = {
-        "Passing": get_passing,
-        "Rushing": get_rushing,
-        "Receiving": get_receiving,
-        "Defense": get_defensive,
-        "Kicking": get_kicking,
-        "Punting": get_punting
-    }
 
-    # Button
-    if st.button("View Stats"):
-        stats = category_functions[category](year, week)
+    # ==========================
+    # WEEKLY STATS
+    # ==========================
 
-        st.subheader(
-            f"{year} Week {week} {category} Stats"
+    if stats_type == "Weekly Stats":
+
+        st.write("Select a season, week, and category")
+
+        year = st.selectbox(
+            "Select Year",
+            [2025, 2024]
         )
 
-        st.dataframe(
-            stats,
-            use_container_width=True
+        week = st.selectbox(
+            "Select Week",
+            list(range(1, 19))
         )
+
+        category = st.selectbox(
+            "Select Category",
+            [
+                "Passing",
+                "Rushing",
+                "Receiving",
+                "Defense",
+                "Kicking",
+                "Punting"
+            ]
+        )
+
+        category_functions = {
+            "Passing": get_passing,
+            "Rushing": get_rushing,
+            "Receiving": get_receiving,
+            "Defense": get_defensive,
+            "Kicking": get_kicking,
+            "Punting": get_punting
+        }
+
+
+        if st.button("View Weekly Stats"):
+
+            stats = category_functions[category](year, week)
+
+            st.subheader(
+                f"{year} Week {week} {category} Stats"
+            )
+
+            st.dataframe(
+                stats,
+                use_container_width=True
+            )
+
+
+    # ==========================
+    # SEASON TOTALS
+    # ==========================
+
+    elif stats_type == "Season Totals":
+
+        st.write("Select a season, team, and category")
+
+        year = st.selectbox(
+            "Select Season",
+            [2025, 2024]
+        )
+
+
+        teams = getonlyabbreviations(year)
+        teams = sorted(list(set(teams)))
+
+
+        team = st.selectbox(
+            "Select Team",
+            teams
+        )
+
+
+        category = st.selectbox(
+            "Select Category",
+            [
+                "passing",
+                "rushing",
+                "receiving",
+                "defensive",
+                "kicking",
+                "punting"
+            ]
+        )
+
+
+        if st.button("View Season Stats"):
+
+            file_path = os.path.join(
+                "player_stats_season",
+                f"player_stats_season_{year}",
+                f"player_stats_season_{team}",
+                f"player_stats_season_{category}.csv"
+            )
+
+
+            if os.path.exists(file_path):
+
+                season_stats = pd.read_csv(file_path)
+
+                st.subheader(
+                    f"{year} {team} Season {category.title()} Stats"
+                )
+
+                st.dataframe(
+                    season_stats,
+                    use_container_width=True
+                )
+
+            else:
+
+                st.error(
+                    f"No season stats found for {team} {year} {category}"
+                )
