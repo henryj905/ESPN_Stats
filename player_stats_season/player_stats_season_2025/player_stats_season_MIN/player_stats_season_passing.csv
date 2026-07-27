@@ -1,0 +1,5 @@
+team,player,category,YDS,AVG,TD,INT,SACKS,QBR,RTG,COMP,ATT
+MIN,Cam Akers,passing,32,32.0,1,0,0.0,100.0,158.3,1,1
+MIN,Carson Wentz,passing,1216,7.2,6,5,0.0,40.46,89.76,110,169
+MIN,J.J. McCarthy,passing,1632,6.87,11,12,0.0,41.9,73.6,140,243
+MIN,Max Brosmer,passing,328,5.15,0,4,0.0,32.57,72.37,47,71

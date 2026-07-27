@@ -1,4 +1,6 @@
 import pandas as pd
+
+import Schedule
 from Schedule import get_week_data, get_game_summary
 import os
 
@@ -110,9 +112,12 @@ def save_player_stats_cache(year, week, stat_dfs):
     if not os.path.exists(week_folder):
         os.makedirs(week_folder)
 
-
     # Save each category
     for category, df in stat_dfs.items():
+
+        # Skip empty DataFrames
+        if df.empty:
+            continue
 
         file_path = os.path.join(
             week_folder,
@@ -138,27 +143,231 @@ def cache_exists(year, week):
     return os.path.exists(path)
 
 
-if __name__ == "__main__":
-    for year in [2024, 2025]:
+def get_season_stats(year, team_abbr):
 
-        for week in range(1, 19):  # NFL regular season weeks
+    year_folder = os.path.join(
+        "player_stats_cache",
+        f"player_stats_cache_{year}"
+    )
 
-            if cache_exists(year, week):
-                print(f"{year} Week {week} already cached")
+    if not os.path.exists(year_folder):
+        return {}
+
+    season_categories = {}
+
+    for week_folder in sorted(os.listdir(year_folder)):
+
+        week_path = os.path.join(year_folder, week_folder)
+
+        if not os.path.isdir(week_path):
+            continue
+
+        for file in os.listdir(week_path):
+
+            if not file.endswith(".csv"):
                 continue
 
-            print(f"Gathering {year} Week {week}")
+            category = file[:-4]
 
-            stats = {
-                "passing": get_passing(year, week),
-                "rushing": get_rushing(year, week),
-                "receiving": get_receiving(year, week),
-                "fumbles": get_fumbles(year, week),
-                "defensive": get_defensive(year, week),
-                "interceptions": get_interceptions(year, week),
-                "kickReturns": get_kick_returns(year, week),
-                "kicking": get_kicking(year, week),
-                "punting": get_punting(year, week)
-            }
+            path = os.path.join(week_path, file)
 
-            save_player_stats_cache(year, week, stats)
+            try:
+                df = pd.read_csv(path)
+            except pd.errors.EmptyDataError:
+                continue
+
+            if "team" not in df.columns:
+                continue
+
+            df = df[df["team"] == team_abbr]
+
+            if df.empty:
+                continue
+
+            if category not in season_categories:
+                season_categories[category] = []
+
+            season_categories[category].append(df)
+
+    season_stats = {}
+
+    for category, dfs in season_categories.items():
+        combined = pd.concat(
+            dfs,
+            ignore_index=True
+        )
+
+        # Split C/ATT into completions and attempts
+        if "C/ATT" in combined.columns:
+            split_values = combined["C/ATT"].str.split("/", expand=True)
+
+            combined["COMP"] = pd.to_numeric(
+                split_values[0],
+                errors="coerce"
+            )
+
+            combined["ATT"] = pd.to_numeric(
+                split_values[1],
+                errors="coerce"
+            )
+
+            combined = combined.drop(columns=["C/ATT"])
+
+        # Split FG into field goals made and attempts
+        if "FG" in combined.columns:
+            split_values = combined["FG"].str.split("/", expand=True)
+
+            combined["FG_MADE"] = pd.to_numeric(
+                split_values[0],
+                errors="coerce"
+            )
+
+            combined["FG_ATT"] = pd.to_numeric(
+                split_values[1],
+                errors="coerce"
+            )
+
+            combined = combined.drop(columns=["FG"])
+
+
+        # Split XP into extra points made and attempts
+        if "XP" in combined.columns:
+            split_values = combined["XP"].str.split("/", expand=True)
+
+            combined["EX_MADE"] = pd.to_numeric(
+                split_values[0],
+                errors="coerce"
+            )
+
+            combined["EX_ATT"] = pd.to_numeric(
+                split_values[1],
+                errors="coerce"
+            )
+
+            combined = combined.drop(columns=["XP"])
+
+        # Convert numeric columns
+        for column in combined.columns:
+            if column not in ["team", "player", "category"]:
+                combined[column] = pd.to_numeric(
+                    combined[column],
+                    errors="coerce"
+                )
+
+        # Columns to average
+        average_columns = {
+            "passing": ["AVG", "QBR", "RTG"],
+            "rushing": ["AVG"],
+            "receiving": ["AVG"],
+            "punting": ["AVG"],
+            "kicking": ["PCT"]
+        }
+
+        # Columns to keep highest value
+        max_columns = ["LONG"]
+
+        # Build aggregation rules
+        aggregation = {}
+
+        for column in combined.columns:
+
+            # Never aggregate identifiers
+            if column in ["team", "player", "category"]:
+                continue
+
+            if column in average_columns.get(category, []):
+                aggregation[column] = "mean"
+
+            elif column in max_columns:
+                aggregation[column] = "max"
+
+            else:
+                aggregation[column] = "sum"
+
+        # Combine players
+        combined = combined.groupby(
+            ["team", "player", "category"],
+            as_index=False
+        ).agg(aggregation)
+
+        # Round averaged stats to 2 decimals
+        for column in average_columns.get(category, []):
+            if column in combined.columns:
+                combined[column] = combined[column].round(2)
+
+        combined = combined.sort_values(
+            ["team", "player"]
+        ).reset_index(drop=True)
+
+        season_stats[category] = combined
+    return season_stats
+
+
+def save_season_stats(year, team, season_stats):
+
+    # Create year folder
+    year_folder = os.path.join(
+        "player_stats_season",
+        f"player_stats_season_{year}"
+    )
+
+    # Create team folder
+    team_folder = os.path.join(
+        year_folder,
+        f"player_stats_season_{team}"
+    )
+
+    os.makedirs(
+        team_folder,
+        exist_ok=True
+    )
+
+    # Save each category
+    for category, df in season_stats.items():
+
+        filename = f"player_stats_season_{category}.csv"
+
+        filepath = os.path.join(
+            team_folder,
+            filename
+        )
+
+        df.to_csv(
+            filepath,
+            index=False
+        )
+
+        print(f"Saved {category} -> {filepath}")
+
+
+if __name__ == "__main__":
+    # for year in [2024, 2025]:
+    #
+    #     for week in range(1, 19):  # NFL regular season weeks
+    #
+    #         if cache_exists(year, week):
+    #             print(f"{year} Week {week} already cached")
+    #             continue
+    #
+    #         print(f"Gathering {year} Week {week}")
+    #
+    #         stats = {
+    #             "passing": get_passing(year, week),
+    #             "rushing": get_rushing(year, week),
+    #             "receiving": get_receiving(year, week),
+    #             "fumbles": get_fumbles(year, week),
+    #             "defensive": get_defensive(year, week),
+    #             "interceptions": get_interceptions(year, week),
+    #             "kickReturns": get_kick_returns(year, week),
+    #             "kicking": get_kicking(year, week),
+    #             "punting": get_punting(year, week)
+    #         }
+    #
+    #         save_player_stats_cache(year, week, stats)
+    # get = ''
+    # for year in range(2024, 2027):
+    #     for team in Schedule.getonlyabbreviations(2025):
+    for year in range(2024, 2026):
+        for team in Schedule.getonlyabbreviations(year):
+            season = get_season_stats(year, team)
+            save_season_stats(year, team, season)

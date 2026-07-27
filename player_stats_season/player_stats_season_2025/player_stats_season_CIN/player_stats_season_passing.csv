@@ -1,0 +1,5 @@
+team,player,category,YDS,AVG,TD,INT,SACKS,QBR,RTG,COMP,ATT
+CIN,Brett Rypien,passing,0,0.0,0,0,0.0,0.0,0.0,0,0
+CIN,Jake Browning,passing,771,7.6,6,8,0.0,48.1,79.64,81,125
+CIN,Joe Burrow,passing,1809,6.96,17,5,0.0,62.97,101.65,173,259
+CIN,Joe Flacco,passing,1664,5.94,13,4,0.0,60.72,87.08,158,256
