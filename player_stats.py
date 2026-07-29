@@ -2,6 +2,7 @@ import pandas as pd
 
 import Schedule
 from Schedule import get_week_data, get_game_summary
+from stat_aggregation import aggregate_stats
 import os
 
 
@@ -246,54 +247,11 @@ def get_season_stats(year, team_abbr):
 
             combined = combined.drop(columns=["XP"])
 
-        # Convert numeric columns
-        for column in combined.columns:
-            if column not in ["team", "player", "category"]:
-                combined[column] = pd.to_numeric(
-                    combined[column],
-                    errors="coerce"
-                )
-
-        # Columns to average
-        average_columns = {
-            "passing": ["AVG", "QBR", "RTG"],
-            "rushing": ["AVG"],
-            "receiving": ["AVG"],
-            "punting": ["AVG"],
-            "kicking": ["PCT"]
-        }
-
-        # Columns to keep highest value
-        max_columns = ["LONG"]
-
-        # Build aggregation rules
-        aggregation = {}
-
-        for column in combined.columns:
-
-            # Never aggregate identifiers
-            if column in ["team", "player", "category"]:
-                continue
-
-            if column in average_columns.get(category, []):
-                aggregation[column] = "mean"
-
-            elif column in max_columns:
-                aggregation[column] = "max"
-
-            else:
-                aggregation[column] = "sum"
-
-        # Combine players
-        combined = combined.groupby(
-            ["team", "player", "category"],
-            as_index=False
-        ).agg(aggregation)
-
-        # Round averaged stats to 2 decimals
-        for column in average_columns.get(category, []):
-            if column in combined.columns:
-                combined[column] = combined[column].round(2)
+        combined = aggregate_stats(
+            combined,
+            category,
+            ["team", "player", "category"]
+        )
 
         combined = combined.sort_values(
             ["team", "player"]
