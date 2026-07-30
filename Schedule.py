@@ -151,3 +151,9 @@ def single_team_schedule(year, team_abbr):
     team_schedule = df[df["user_team"] == team_abbr]
 
     return team_schedule
+
+
+def week_opponent(year, week, team_abbr):
+    team_schedule = single_team_schedule(year, team_abbr)
+    opponent = team_schedule[team_schedule["week"] == week]
+    return opponent["matchup"].iloc[0]
