@@ -299,33 +299,30 @@ def save_season_stats(year, team, season_stats):
 
 
 if __name__ == "__main__":
-    # for year in [2024, 2025]:
-    #
-    #     for week in range(1, 19):  # NFL regular season weeks
-    #
-    #         if cache_exists(year, week):
-    #             print(f"{year} Week {week} already cached")
-    #             continue
-    #
-    #         print(f"Gathering {year} Week {week}")
-    #
-    #         stats = {
-    #             "passing": get_passing(year, week),
-    #             "rushing": get_rushing(year, week),
-    #             "receiving": get_receiving(year, week),
-    #             "fumbles": get_fumbles(year, week),
-    #             "defensive": get_defensive(year, week),
-    #             "interceptions": get_interceptions(year, week),
-    #             "kickReturns": get_kick_returns(year, week),
-    #             "kicking": get_kicking(year, week),
-    #             "punting": get_punting(year, week)
-    #         }
-    #
-    #         save_player_stats_cache(year, week, stats)
-    # get = ''
-    # for year in range(2024, 2027):
-    #     for team in Schedule.getonlyabbreviations(2025):
-    for year in range(2024, 2026):
+    for year in range(2021, 2026):
+
+        for week in range(1, 19):  # NFL regular season weeks
+
+            if cache_exists(year, week):
+                print(f"{year} Week {week} already cached")
+                continue
+
+            print(f"Gathering {year} Week {week}")
+
+            stats = {
+                "passing": get_passing(year, week),
+                "rushing": get_rushing(year, week),
+                "receiving": get_receiving(year, week),
+                "fumbles": get_fumbles(year, week),
+                "defensive": get_defensive(year, week),
+                "interceptions": get_interceptions(year, week),
+                "kickReturns": get_kick_returns(year, week),
+                "kicking": get_kicking(year, week),
+                "punting": get_punting(year, week)
+            }
+
+            save_player_stats_cache(year, week, stats)
+    for year in range(2021, 2026):
         for team in Schedule.getonlyabbreviations(year):
             season = get_season_stats(year, team)
             save_season_stats(year, team, season)

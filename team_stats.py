@@ -85,7 +85,7 @@ def save_team_stats(year, team, team_stats):
         )
 
 
-# if __name__ == "__main__":
+if __name__ == "__main__":
 
     # stats = get_team_stats(
     #     2025,
@@ -98,7 +98,7 @@ def save_team_stats(year, team, team_stats):
     #     stats
     # )
 
-    # for year in range(2024, 2026):
-    #     for team in Schedule.getonlyabbreviations(year):
-    #         stats = get_team_stats(year, team)
-    #         save_team_stats(year, team, stats)
+    for year in range(2021, 2026):
+        for team in Schedule.getonlyabbreviations(year):
+            stats = get_team_stats(year, team)
+            save_team_stats(year, team, stats)

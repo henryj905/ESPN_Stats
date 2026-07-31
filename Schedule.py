@@ -157,3 +157,9 @@ def week_opponent(year, week, team_abbr):
     team_schedule = single_team_schedule(year, team_abbr)
     opponent = team_schedule[team_schedule["week"] == week]
     return opponent["matchup"].iloc[0]
+
+
+if __name__ == "__main__":
+    for year in range(2021, 2026):
+        for team in getonlyabbreviations(year):
+            single_team_schedule(year, team)

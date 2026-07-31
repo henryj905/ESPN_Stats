@@ -132,5 +132,5 @@ def create_game_result_csv(year):
 
 if __name__ == "__main__":
 
-    for year in range(2024, 2026):
+    for year in range(2021, 2026):
         create_game_result_csv(year)
