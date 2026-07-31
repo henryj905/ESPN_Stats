@@ -102,7 +102,25 @@ def create_game_result_csv(year):
                     )
                 }
             )
+    # Add BYE weeks
+    for team, games in team_results.items():
 
+        played_weeks = {
+            game["week"]
+            for game in games
+        }
+
+        for week in range(1, 19):
+
+            if week not in played_weeks:
+
+                games.append(
+                    {
+                        "week": week,
+                        "opponent": "BYE",
+                        "result": "BYE"
+                    }
+                )
 
     # Write CSVs
     for team, games in team_results.items():
@@ -117,9 +135,11 @@ def create_game_result_csv(year):
             exist_ok=True
         )
 
-
         df = pd.DataFrame(games)
 
+        df = df.sort_values(
+            "week"
+        ).reset_index(drop=True)
 
         df.to_csv(
             os.path.join(
@@ -130,7 +150,29 @@ def create_game_result_csv(year):
         )
 
 
+def get_result(year, week, team):
+
+    path = os.path.join(
+        "game_results",
+        str(year),
+        team,
+        "results.csv"
+    )
+
+    if not os.path.exists(path):
+        return None
+
+    df = pd.read_csv(path)
+
+    result = df[df["week"] == week]
+
+    if result.empty:
+        return None
+
+    return result["result"].iloc[0]
+
 if __name__ == "__main__":
 
     for year in range(2021, 2026):
         create_game_result_csv(year)
+    # print(get_result(2025, 1, "WSH"))

@@ -173,7 +173,7 @@ def compare_interceptions(TF_list):
     return value_true, value_false
 
 
-if __name__ == "__main__":
+def get_score(year, week, team):
     main, opp = gather_main_and_opponent_stats(2025, 1, "WSH")
     comparison = compare_stats(main, opp)
 
@@ -185,8 +185,6 @@ if __name__ == "__main__":
         "kicking": compare_kicking,
         "punting": compare_punting
     }
-
-    results = {}
     main_score = 0
     opp_score = 0
     for category, function in compare_functions.items():
@@ -195,4 +193,4 @@ if __name__ == "__main__":
         )
         main_score += score1
         opp_score += score2
-    print(main_score, opp_score)
+    return main_score, opp_score
