@@ -113,12 +113,133 @@ def save_player_stats_cache(year, week, stat_dfs):
     if not os.path.exists(week_folder):
         os.makedirs(week_folder)
 
+
     # Save each category
     for category, df in stat_dfs.items():
 
         # Skip empty DataFrames
         if df.empty:
             continue
+
+        # Prevent modifying original dataframe
+        df = df.copy()
+
+
+        # Split C/ATT into completions and attempts
+        if "C/ATT" in df.columns:
+
+            split = df["C/ATT"].str.split(
+                "/",
+                expand=True
+            )
+
+            df["COMP"] = pd.to_numeric(
+                split[0],
+                errors="coerce"
+            )
+
+            df["ATT"] = pd.to_numeric(
+                split[1],
+                errors="coerce"
+            )
+
+            df.drop(
+                columns=["C/ATT"],
+                inplace=True
+            )
+
+
+        # Split FG into made and attempts
+        if "FG" in df.columns:
+
+            split = df["FG"].str.split(
+                "/",
+                expand=True
+            )
+
+            df["FG_MADE"] = pd.to_numeric(
+                split[0],
+                errors="coerce"
+            )
+
+            df["FG_ATT"] = pd.to_numeric(
+                split[1],
+                errors="coerce"
+            )
+
+            df.drop(
+                columns=["FG"],
+                inplace=True
+            )
+
+
+        # Split XP into made and attempts
+        if "XP" in df.columns:
+
+            split = df["XP"].str.split(
+                "/",
+                expand=True
+            )
+
+            df["EX_MADE"] = pd.to_numeric(
+                split[0],
+                errors="coerce"
+            )
+
+            df["EX_ATT"] = pd.to_numeric(
+                split[1],
+                errors="coerce"
+            )
+
+            df.drop(
+                columns=["XP"],
+                inplace=True
+            )
+
+
+        # Convert SACKS from "1-6" to 1
+        if "SACKS" in df.columns:
+
+            df["SACKS"] = (
+                df["SACKS"]
+                .astype(str)
+                .str.split("-")
+                .str[0]
+            )
+
+
+        # Remove columns not needed
+        df.drop(
+            columns=["QBR", "RTG"],
+            errors="ignore",
+            inplace=True
+        )
+
+
+        # Remove REC from fumbles
+        if category == "fumbles":
+
+            df.drop(
+                columns=["REC"],
+                errors="ignore",
+                inplace=True
+            )
+
+
+        # Convert numeric columns
+        for column in df.columns:
+
+            if column not in [
+                "team",
+                "player",
+                "category"
+            ]:
+
+                df[column] = pd.to_numeric(
+                    df[column],
+                    errors="coerce"
+                )
+
 
         file_path = os.path.join(
             week_folder,
@@ -129,6 +250,7 @@ def save_player_stats_cache(year, week, stat_dfs):
             file_path,
             index=False
         )
+
 
     print(f"Saved cache: {year} Week {week}")
 
@@ -197,55 +319,6 @@ def get_season_stats(year, team_abbr):
             dfs,
             ignore_index=True
         )
-
-        # Split C/ATT into completions and attempts
-        if "C/ATT" in combined.columns:
-            split_values = combined["C/ATT"].str.split("/", expand=True)
-
-            combined["COMP"] = pd.to_numeric(
-                split_values[0],
-                errors="coerce"
-            )
-
-            combined["ATT"] = pd.to_numeric(
-                split_values[1],
-                errors="coerce"
-            )
-
-            combined = combined.drop(columns=["C/ATT"])
-
-        # Split FG into field goals made and attempts
-        if "FG" in combined.columns:
-            split_values = combined["FG"].str.split("/", expand=True)
-
-            combined["FG_MADE"] = pd.to_numeric(
-                split_values[0],
-                errors="coerce"
-            )
-
-            combined["FG_ATT"] = pd.to_numeric(
-                split_values[1],
-                errors="coerce"
-            )
-
-            combined = combined.drop(columns=["FG"])
-
-
-        # Split XP into extra points made and attempts
-        if "XP" in combined.columns:
-            split_values = combined["XP"].str.split("/", expand=True)
-
-            combined["EX_MADE"] = pd.to_numeric(
-                split_values[0],
-                errors="coerce"
-            )
-
-            combined["EX_ATT"] = pd.to_numeric(
-                split_values[1],
-                errors="coerce"
-            )
-
-            combined = combined.drop(columns=["XP"])
 
         combined = aggregate_stats(
             combined,

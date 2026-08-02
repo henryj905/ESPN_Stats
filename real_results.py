@@ -150,7 +150,7 @@ def create_game_result_csv(year):
         )
 
 
-def get_result(year, week, team):
+def get_results(year, week, team):
 
     path = os.path.join(
         "game_results",
@@ -171,8 +171,9 @@ def get_result(year, week, team):
 
     return result["result"].iloc[0]
 
-if __name__ == "__main__":
-
-    for year in range(2021, 2026):
-        create_game_result_csv(year)
-    # print(get_result(2025, 1, "WSH"))
+# if __name__ == "__main__":
+#
+#     # for year in range(2021, 2026):
+#     #     create_game_result_csv(year)
+#     for week in range(1, 19):
+#         print(get_result(2025, week, "WSH"))
