@@ -1,0 +1,35 @@
+team,player,category,YDS,AVG,TD,INT,SACKS,COMP,ATT
+ARI,Clayton Tune,passing,4,4.0,0,0,0,1,1
+ARI,Joshua Dobbs,passing,146,4.4,0,0,4,19,33
+ATL,Desmond Ridder,passing,250,10.0,0,0,1,19,25
+BAL,Tyler Huntley,passing,0,0.0,0,0,0,0,1
+BAL,Lamar Jackson,passing,357,13.2,3,0,0,21,27
+BUF,Josh Allen,passing,265,6.5,2,1,1,27,41
+CHI,Tyson Bagent,passing,162,5.6,1,0,1,21,29
+CHI,Nathan Peterman,passing,0,0.0,0,0,1,0,0
+CLE,PJ Walker,passing,178,5.6,0,1,2,15,32
+CLE,Deshaun Watson,passing,5,1.0,0,1,0,1,5
+DEN,Russell Wilson,passing,194,6.7,1,0,1,20,29
+DET,Jared Goff,passing,284,5.4,0,1,5,33,53
+GB,Dontayvion Wicks,passing,14,14.0,0,0,0,1,1
+GB,Jordan Love,passing,180,5.8,2,1,0,21,31
+IND,Gardner Minshew II,passing,305,13.3,2,1,4,15,23
+JAX,Trevor Lawrence,passing,204,7.0,1,0,0,20,29
+JAX,Logan Cooke,passing,13,13.0,0,0,0,1,1
+KC,Patrick Mahomes,passing,424,10.1,4,1,1,32,42
+LAC,Justin Herbert,passing,259,8.6,1,2,5,17,30
+LAR,Matthew Stafford,passing,231,8.0,1,1,2,14,29
+LV,Brian Hoyer,passing,129,4.0,0,2,1,17,32
+LV,Aidan O'Connell,passing,75,5.8,1,1,0,10,13
+MIA,Cedrick Wilson Jr.,passing,0,0.0,0,0,1,0,0
+MIA,Tua Tagovailoa,passing,216,6.8,1,1,3,23,32
+MIN,Kirk Cousins,passing,378,8.4,2,1,0,35,45
+NE,Mac Jones,passing,272,9.1,2,0,1,25,30
+NO,Derek Carr,passing,301,5.5,1,1,1,33,55
+NYG,Tyrod Taylor,passing,279,9.6,2,0,4,18,29
+PHI,Jalen Hurts,passing,279,9.0,2,1,3,23,31
+PIT,Kenny Pickett,passing,230,9.2,0,0,2,17,25
+SEA,Geno Smith,passing,219,9.1,2,1,2,18,24
+SF,Brock Purdy,passing,272,9.1,1,2,1,21,30
+TB,Baker Mayfield,passing,275,6.5,1,1,3,27,42
+WSH,Sam Howell,passing,249,5.9,0,1,6,22,42

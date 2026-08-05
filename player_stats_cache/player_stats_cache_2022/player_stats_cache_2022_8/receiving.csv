@@ -1,0 +1,243 @@
+team,player,category,REC,YDS,AVG,TD,LONG,TGTS
+ARI,DeAndre Hopkins,receiving,12,159,13.3,1,33,13
+ARI,Eno Benjamin,receiving,4,23,5.8,0,15,7
+ARI,Greg Dortch,receiving,2,12,6.0,0,8,3
+ARI,Darrel Williams,receiving,2,6,3.0,0,6,3
+ARI,A.J. Green,receiving,0,0,0.0,0,0,1
+ARI,Robbie Chosen,receiving,0,0,0.0,0,0,3
+ARI,Rondale Moore,receiving,7,92,13.1,1,38,8
+ATL,Bryan Edwards,receiving,1,3,3.0,0,3,1
+ATL,Avery Williams,receiving,2,7,3.5,0,8,2
+ATL,Parker Hesse,receiving,1,9,9.0,0,9,1
+ATL,Olamide Zaccheaus,receiving,1,10,10.0,0,10,1
+ATL,Drake London,receiving,4,31,7.8,0,17,5
+ATL,Tyler Allgeier,receiving,3,46,15.3,1,25,3
+ATL,Damiere Byrd,receiving,3,67,22.3,1,47,6
+ATL,Kyle Pitts Sr.,receiving,5,80,16.0,1,33,9
+BAL,Isaiah Likely,receiving,6,77,12.8,1,17,7
+BAL,Rashod Bateman,receiving,0,0,0.0,0,0,1
+BAL,Demarcus Robinson,receiving,6,64,10.7,0,16,8
+BAL,Mark Andrews,receiving,3,33,11.0,0,22,5
+BAL,Devin Duvernay,receiving,4,31,7.8,0,13,4
+BAL,Kenyan Drake,receiving,4,5,1.3,1,5,4
+BAL,James Proche II,receiving,3,24,8.0,0,12,4
+BAL,Josh Oliver,receiving,1,4,4.0,0,4,1
+BUF,Stefon Diggs,receiving,6,108,18.0,1,53,8
+BUF,James Cook III,receiving,1,41,41.0,0,41,1
+BUF,Gabe Davis,receiving,2,35,17.5,0,29,7
+BUF,Dawson Knox,receiving,2,10,5.0,1,9,3
+BUF,Isaiah McKenzie,receiving,1,8,8.0,0,8,1
+BUF,Jake Kumerow,receiving,0,0,0.0,0,0,1
+BUF,Khalil Shakir,receiving,0,0,0.0,0,0,2
+BUF,Devin Singletary,receiving,1,16,16.0,0,16,2
+CAR,Tommy Tremble,receiving,2,17,8.5,0,9,4
+CAR,Shi Smith,receiving,0,0,0.0,0,0,1
+CAR,Spencer Brown,receiving,0,0,0.0,0,0,1
+CAR,D'Onta Foreman,receiving,0,0,0.0,0,0,1
+CAR,Laviska Shenault Jr.,receiving,5,26,5.2,0,13,6
+CAR,Ian Thomas,receiving,1,2,2.0,0,2,1
+CAR,Terrace Marshall Jr.,receiving,4,87,21.8,0,39,9
+CAR,DJ Moore,receiving,6,152,25.3,1,62,11
+CAR,Stephen Sullivan,receiving,1,33,33.0,0,33,2
+CHI,N'Keal Harry,receiving,2,24,12.0,1,17,2
+CHI,David Montgomery,receiving,3,22,7.3,0,13,3
+CHI,Cole Kmet,receiving,2,11,5.5,1,10,2
+CHI,Darnell Mooney,receiving,5,70,14.0,0,36,5
+CHI,Equanimeous St. Brown,receiving,1,6,6.0,0,6,3
+CHI,Velus Jones Jr.,receiving,1,5,5.0,0,5,3
+CHI,Dante Pettis,receiving,4,18,4.5,0,12,5
+CIN,Chris Evans,receiving,1,26,26.0,0,26,1
+CIN,Samaje Perine,receiving,3,10,3.3,0,6,3
+CIN,Mike Thomas,receiving,0,0,0.0,0,0,1
+CIN,Mitchell Wilcox,receiving,1,3,3.0,0,3,1
+CIN,Trent Taylor,receiving,1,5,5.0,0,5,1
+CIN,Tee Higgins,receiving,3,49,16.3,1,41,6
+CIN,Hayden Hurst,receiving,4,42,10.5,0,21,4
+CIN,Tyler Boyd,receiving,3,38,12.7,1,14,5
+CIN,Joe Mixon,receiving,7,32,4.6,0,14,9
+CIN,Trenton Irwin,receiving,2,27,13.5,0,18,3
+CLE,Kareem Hunt,receiving,4,30,7.5,0,12,4
+CLE,Donovan Peoples-Jones,receiving,4,81,20.3,0,37,4
+CLE,Amari Cooper,receiving,5,131,26.2,1,53,7
+CLE,David Bell,receiving,2,27,13.5,0,14,2
+CLE,Michael Woods II,receiving,1,6,6.0,0,6,2
+CLE,Nick Chubb,receiving,1,3,3.0,0,3,1
+DAL,Jake Ferguson,receiving,1,1,1.0,1,1,1
+DAL,CeeDee Lamb,receiving,5,77,15.4,1,22,7
+DAL,Dalton Schultz,receiving,6,74,12.3,0,30,7
+DAL,Michael Gallup,receiving,4,49,12.3,0,17,6
+DAL,Malik Davis,receiving,2,18,9.0,0,10,2
+DAL,Tony Pollard,receiving,1,16,16.0,0,16,1
+DAL,Peyton Hendershot,receiving,2,15,7.5,0,11,2
+DEN,Courtland Sutton,receiving,1,13,13.0,0,13,4
+DEN,Montrell Washington,receiving,1,1,1.0,0,1,1
+DEN,Latavius Murray,receiving,1,13,13.0,0,13,2
+DEN,Melvin Gordon III,receiving,3,23,7.7,0,12,4
+DEN,KJ Hamler,receiving,2,52,26.0,0,47,3
+DEN,Greg Dulcich,receiving,4,87,21.8,0,38,5
+DEN,Jerry Jeudy,receiving,6,63,10.5,1,25,7
+DET,James Mitchell,receiving,1,14,14.0,0,14,1
+DET,Amon-Ra St. Brown,receiving,7,69,9.9,0,21,10
+DET,Kalif Raymond,receiving,3,76,25.3,0,43,4
+DET,T.J. Hockenson,receiving,3,80,26.7,0,58,4
+DET,D'Andre Swift,receiving,5,27,5.4,1,8,5
+DET,Jamaal Williams,receiving,3,23,7.7,0,10,3
+DET,Josh Reynolds,receiving,2,14,7.0,0,9,6
+DET,Maurice Alexander,receiving,1,7,7.0,0,7,1
+DET,Jared Goff,receiving,1,5,5.0,0,5,1
+DET,Craig Reynolds,receiving,0,0,0.0,0,0,1
+DET,Brock Wright,receiving,1,6,6.0,0,6,1
+GB,Christian Watson,receiving,1,12,12.0,0,12,1
+GB,Aaron Jones Sr.,receiving,4,14,3.5,0,7,5
+GB,Amari Rodgers,receiving,1,22,22.0,0,22,3
+GB,Robert Tonyan,receiving,5,35,7.0,0,15,6
+GB,Samori Toure,receiving,1,37,37.0,1,37,4
+GB,Romeo Doubs,receiving,4,62,15.5,1,26,7
+GB,AJ Dillon,receiving,1,9,9.0,0,9,1
+GB,Josiah Deguara,receiving,1,9,9.0,0,9,1
+GB,Sammy Watkins,receiving,1,3,3.0,0,3,1
+HOU,O.J. Howard,receiving,2,24,12.0,0,24,3
+HOU,Rex Burkhead,receiving,1,2,2.0,0,2,1
+HOU,Jordan Akins,receiving,1,5,5.0,0,5,2
+HOU,Phillip Dorsett II,receiving,1,6,6.0,0,6,5
+HOU,Troy Hairston,receiving,2,7,3.5,0,5,2
+HOU,Dameon Pierce,receiving,3,16,5.3,1,7,5
+HOU,Brevin Jordan,receiving,2,19,9.5,0,16,5
+HOU,Dare Ogunbowale,receiving,1,0,0.0,0,0,1
+HOU,Brandin Cooks,receiving,4,73,18.3,0,44,6
+IND,Kylen Granson,receiving,3,11,3.7,0,15,3
+IND,Jonathan Taylor,receiving,0,0,0.0,0,0,1
+IND,Mo Alie-Cox,receiving,0,0,0.0,0,0,1
+IND,Nyheim Hines,receiving,2,29,14.5,0,22,2
+IND,Parris Campbell,receiving,2,43,21.5,0,38,2
+IND,Michael Pittman Jr.,receiving,7,53,7.6,0,16,9
+IND,Alec Pierce,receiving,3,65,21.7,0,47,5
+JAX,Marvin Jones Jr.,receiving,0,0,0.0,0,0,3
+JAX,Travis Etienne Jr.,receiving,3,6,2.0,0,6,3
+JAX,Christian Kirk,receiving,3,40,13.3,0,25,7
+JAX,Zay Jones,receiving,3,28,9.3,0,17,3
+JAX,Evan Engram,receiving,4,55,13.8,1,22,6
+JAX,JaMycal Hasty,receiving,3,-3,-1.0,0,3,4
+JAX,Chris Manhertz,receiving,1,-1,-1.0,0,-1,1
+JAX,Dan Arnold,receiving,1,8,8.0,0,8,1
+LAR,Cooper Kupp,receiving,8,79,9.9,1,23,12
+LAR,Allen Robinson,receiving,5,54,10.8,0,23,7
+LAR,Tyler Higbee,receiving,2,15,7.5,0,10,6
+LAR,Ronnie Rivers,receiving,4,15,3.8,0,7,4
+LAR,Ben Skowronek,receiving,1,10,10.0,0,10,1
+LAR,Darrell Henderson Jr.,receiving,2,14,7.0,0,7,2
+LV,Mack Hollins,receiving,7,64,9.1,0,14,8
+LV,Foster Moreau,receiving,6,31,5.2,0,12,9
+LV,Ameer Abdullah,receiving,4,28,7.0,0,10,5
+LV,Josh Jacobs,receiving,2,11,5.5,0,11,4
+LV,Hunter Renfrow,receiving,1,6,6.0,0,6,2
+LV,Davante Adams,receiving,1,3,3.0,0,3,5
+LV,Jesper Horsted,receiving,0,0,0.0,0,0,1
+LV,Keelan Cole Sr.,receiving,2,30,15.0,0,18,5
+MIA,Braylon Sanders,receiving,2,17,8.5,0,13,2
+MIA,Trent Sherfield,receiving,2,25,12.5,0,14,2
+MIA,Mike Gesicki,receiving,3,38,12.7,1,20,4
+MIA,Jaylen Waddle,receiving,8,106,13.3,2,29,9
+MIA,Tyreek Hill,receiving,12,188,15.7,0,42,14
+MIA,Cedrick Wilson Jr.,receiving,0,0,0.0,0,0,1
+MIA,Raheem Mostert,receiving,1,3,3.0,0,3,1
+MIA,Alec Ingold,receiving,1,5,5.0,0,5,1
+MIN,Justin Jefferson,receiving,6,98,16.3,0,29,8
+MIN,Dalvin Cook,receiving,5,30,6.0,0,11,6
+MIN,Irv Smith Jr.,receiving,4,28,7.0,0,11,4
+MIN,K.J. Osborn,receiving,2,8,4.0,1,5,5
+MIN,Johnny Mundt,receiving,1,1,1.0,1,1,1
+MIN,Adam Thielen,receiving,6,67,11.2,0,18,7
+NE,DeVante Parker,receiving,0,0,0.0,0,0,1
+NE,Nelson Agholor,receiving,1,2,2.0,0,2,1
+NE,Kendrick Bourne,receiving,0,0,0.0,0,0,1
+NE,Jonnu Smith,receiving,3,10,3.3,0,7,4
+NE,Tyquan Thornton,receiving,1,13,13.0,0,13,2
+NE,Rhamondre Stevenson,receiving,7,72,10.3,0,22,7
+NE,Jakobi Meyers,receiving,9,60,6.7,1,16,13
+NE,Hunter Henry,receiving,1,22,22.0,0,22,1
+NE,Damien Harris,receiving,2,15,7.5,0,8,2
+NO,Alvin Kamara,receiving,9,96,10.7,2,36,10
+NO,Chris Olave,receiving,5,52,10.4,0,14,7
+NO,Rashid Shaheed,receiving,3,38,12.7,0,30,3
+NO,Mark Ingram II,receiving,1,2,2.0,0,2,1
+NO,Nick Vannett,receiving,1,8,8.0,0,8,1
+NO,Marquez Callaway,receiving,1,10,10.0,0,10,1
+NO,Taysom Hill,receiving,1,11,11.0,0,11,2
+NO,Tre'Quan Smith,receiving,0,0,0.0,0,0,1
+NO,Juwan Johnson,receiving,2,14,7.0,0,8,4
+NYG,Darius Slayton,receiving,5,66,13.2,0,21,6
+NYG,Lawrence Cager,receiving,0,0,0.0,0,0,1
+NYG,Marcus Johnson,receiving,1,3,3.0,0,3,6
+NYG,David Sills V,receiving,1,5,5.0,0,5,2
+NYG,Saquon Barkley,receiving,3,9,3.0,0,12,5
+NYG,Matt Breida,receiving,1,10,10.0,0,10,2
+NYG,Wan'Dale Robinson,receiving,2,15,7.5,0,9,3
+NYG,Tanner Hudson,receiving,3,58,19.3,0,27,5
+NYG,Chris Myarick,receiving,1,10,10.0,0,10,1
+NYJ,Braxton Berrios,receiving,0,0,0.0,0,0,1
+NYJ,Denzel Mims,receiving,2,76,38.0,0,63,3
+NYJ,Tyler Conklin,receiving,6,79,13.2,2,27,10
+NYJ,Garrett Wilson,receiving,6,115,19.2,0,54,7
+NYJ,C.J. Uzomah,receiving,1,27,27.0,0,27,1
+NYJ,Jeff Smith,receiving,1,23,23.0,0,23,1
+NYJ,Ty Johnson,receiving,0,0,0.0,0,0,2
+NYJ,James Robinson,receiving,0,0,0.0,0,0,1
+NYJ,Michael Carter,receiving,4,35,8.8,0,17,7
+NYJ,Elijah Moore,receiving,0,0,0.0,0,0,1
+PHI,A.J. Brown,receiving,6,156,26.0,3,43,10
+PHI,Dallas Goedert,receiving,6,64,10.7,0,17,6
+PHI,Zach Pascal,receiving,2,57,28.5,1,34,2
+PHI,DeVonta Smith,receiving,5,23,4.6,0,14,8
+PHI,Kenny Gainwell,receiving,1,8,8.0,0,8,1
+PHI,Jack Stoll,receiving,0,0,0.0,0,0,1
+PHI,Quez Watkins,receiving,0,0,0.0,0,0,2
+PIT,George Pickens,receiving,0,0,0.0,0,0,3
+PIT,Steven Sims,receiving,2,-1,-0.5,0,2,3
+PIT,Diontae Johnson,receiving,5,35,7.0,0,14,9
+PIT,Chase Claypool,receiving,4,45,11.3,0,25,6
+PIT,Jaylen Warren,receiving,3,25,8.3,0,15,3
+PIT,Pat Freiermuth,receiving,4,57,14.3,0,21,7
+PIT,Najee Harris,receiving,6,26,4.3,0,9,6
+PIT,Derek Watt,receiving,2,6,3.0,1,5,2
+PIT,Zach Gentry,receiving,1,3,3.0,0,3,1
+SEA,Kenneth Walker III,receiving,1,1,1.0,0,1,2
+SEA,Dee Eskridge,receiving,1,3,3.0,0,3,2
+SEA,Colby Parkinson,receiving,1,5,5.0,0,5,1
+SEA,DK Metcalf,receiving,6,55,9.2,1,15,10
+SEA,Noah Fant,receiving,2,19,9.5,0,16,2
+SEA,Travis Homer,receiving,1,21,21.0,0,21,1
+SEA,Marquise Goodwin,receiving,4,33,8.3,0,16,5
+SEA,Tyler Lockett,receiving,5,63,12.6,1,33,8
+SEA,Will Dissly,receiving,2,12,6.0,0,9,2
+SF,Brandon Aiyuk,receiving,6,81,13.5,1,34,6
+SF,Ross Dwelley,receiving,1,56,56.0,0,56,1
+SF,Christian McCaffrey,receiving,8,55,6.9,1,14,9
+SF,George Kittle,receiving,3,39,13.0,1,23,5
+SF,Jeff Wilson Jr.,receiving,2,21,10.5,0,12,2
+SF,Ray-Ray McCloud III,receiving,1,11,11.0,0,11,2
+SF,Tyler Kroft,receiving,1,6,6.0,0,6,1
+TB,Julio Jones,receiving,2,21,10.5,1,13,4
+TB,Rachaad White,receiving,3,24,8.0,0,20,3
+TB,Breshad Perriman,receiving,1,11,11.0,0,11,1
+TB,Ko Kieft,receiving,1,9,9.0,0,9,1
+TB,Kyle Rudolph,receiving,0,0,0.0,0,0,1
+TB,Cade Otton,receiving,2,15,7.5,0,10,5
+TB,Leonard Fournette,receiving,3,34,11.3,0,15,3
+TB,Chris Godwin Jr.,receiving,6,75,12.5,0,44,11
+TB,Mike Evans,receiving,6,123,20.5,0,51,11
+TB,Scotty Miller,receiving,2,13,6.5,0,7,2
+TEN,Derrick Henry,receiving,1,9,9.0,0,9,1
+TEN,Cody Hollister,receiving,0,0,0.0,0,0,1
+TEN,Robert Woods,receiving,2,26,13.0,0,16,2
+TEN,Austin Hooper,receiving,1,5,5.0,0,5,1
+TEN,Dontrell Hilliard,receiving,1,12,12.0,0,12,1
+TEN,Chig Okonkwo,receiving,1,3,3.0,0,3,2
+WSH,Dax Milne,receiving,1,4,4.0,0,4,1
+WSH,John Bates,receiving,1,6,6.0,0,6,1
+WSH,Armani Rogers,receiving,1,13,13.0,0,13,2
+WSH,J.D. McKissic,receiving,3,14,4.7,0,7,5
+WSH,Cam Sims,receiving,1,21,21.0,0,21,2
+WSH,Curtis Samuel,receiving,3,50,16.7,0,20,4
+WSH,Antonio Gibson,receiving,7,58,8.3,1,18,7
+WSH,Terry McLaurin,receiving,6,113,18.8,0,42,8

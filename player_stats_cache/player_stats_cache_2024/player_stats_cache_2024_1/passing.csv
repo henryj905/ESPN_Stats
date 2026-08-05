@@ -1,0 +1,38 @@
+team,player,category,YDS,AVG,TD,INT,SACKS,COMP,ATT
+ARI,Kyler Murray,passing,162,5.2,1,0,4,21,31
+ATL,Kirk Cousins,passing,155,6.0,1,2,2,16,26
+BAL,Lamar Jackson,passing,273,6.7,1,0,1,26,41
+BUF,Josh Allen,passing,232,10.1,2,0,2,18,23
+CAR,Bryce Young,passing,161,5.4,0,2,4,13,30
+CAR,Andy Dalton,passing,0,0.0,0,0,0,0,1
+CHI,Caleb Williams,passing,93,3.2,0,0,2,14,29
+CIN,Joe Burrow,passing,164,5.7,0,0,3,21,29
+CLE,Deshaun Watson,passing,169,3.8,1,2,6,24,45
+DAL,Dak Prescott,passing,179,5.6,1,0,3,19,32
+DEN,Bo Nix,passing,138,3.3,0,2,2,26,42
+DET,Jared Goff,passing,217,7.8,1,1,2,18,28
+GB,Malik Willis,passing,0,0.0,0,0,1,0,1
+GB,Jordan Love,passing,260,7.6,2,1,1,17,34
+HOU,C.J. Stroud,passing,234,7.3,2,0,4,24,32
+IND,Anthony Richardson Sr.,passing,212,11.2,2,1,2,9,19
+JAX,Trevor Lawrence,passing,162,7.7,1,0,3,12,21
+KC,Patrick Mahomes,passing,291,10.4,1,1,2,20,28
+LAC,Justin Herbert,passing,144,5.5,1,0,1,17,26
+LAR,Matthew Stafford,passing,317,6.5,1,1,2,34,49
+LV,Gardner Minshew II,passing,257,7.8,1,1,4,25,33
+MIA,Tua Tagovailoa,passing,338,9.1,1,0,3,23,37
+MIN,Sam Darnold,passing,208,8.7,2,1,1,19,24
+NE,Jacoby Brissett,passing,121,5.0,0,0,1,15,24
+NO,Derek Carr,passing,200,8.7,3,0,1,19,23
+NO,Jake Haener,passing,0,0.0,0,0,0,0,1
+NYG,Daniel Jones,passing,186,4.4,0,2,5,22,42
+NYJ,Aaron Rodgers,passing,167,8.0,1,1,1,13,21
+NYJ,Tyrod Taylor,passing,36,4.5,1,0,0,6,8
+PHI,Jalen Hurts,passing,278,8.2,2,2,2,20,34
+PIT,Justin Fields,passing,156,6.8,0,0,2,17,23
+SEA,Geno Smith,passing,171,6.8,1,1,2,18,25
+SF,Brock Purdy,passing,231,8.0,0,0,2,19,29
+SF,Deebo Samuel,passing,0,0.0,0,0,1,0,0
+TB,Baker Mayfield,passing,289,9.6,4,0,1,24,30
+TEN,Will Levis,passing,127,4.0,1,2,3,19,32
+WSH,Jayden Daniels,passing,184,7.7,0,0,2,17,24

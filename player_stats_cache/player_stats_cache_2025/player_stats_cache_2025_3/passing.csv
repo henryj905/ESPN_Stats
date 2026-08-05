@@ -1,0 +1,41 @@
+team,player,category,YDS,AVG,TD,INT,SACKS,COMP,ATT
+ARI,Kyler Murray,passing,159,4.5,1,0,1,22,35
+ATL,Michael Penix Jr.,passing,172,4.8,0,2,0,18,36
+ATL,Kirk Cousins,passing,29,4.1,0,0,0,5,7
+BAL,Lamar Jackson,passing,288,10.7,3,0,7,21,27
+BAL,Derrick Henry,passing,0,0.0,0,0,0,0,1
+BUF,Josh Allen,passing,213,7.6,3,0,2,22,28
+CAR,Bryce Young,passing,121,5.0,0,0,1,16,24
+CHI,Caleb Williams,passing,298,10.6,4,0,0,19,28
+CIN,Jake Browning,passing,140,5.2,1,2,3,19,27
+CIN,Brett Rypien,passing,0,0.0,0,0,1,0,0
+CLE,Joe Flacco,passing,142,3.9,0,1,2,21,36
+DAL,Joe Milton III,passing,41,8.2,0,1,0,3,5
+DAL,Dak Prescott,passing,251,6.3,1,2,2,31,40
+DEN,Bo Nix,passing,153,6.1,1,0,2,14,25
+DET,Jared Goff,passing,202,7.2,1,0,0,20,28
+GB,Jordan Love,passing,183,7.3,1,1,5,18,25
+HOU,C.J. Stroud,passing,204,5.4,1,2,2,25,38
+IND,Daniel Jones,passing,228,9.1,1,0,0,18,25
+JAX,Trevor Lawrence,passing,222,5.6,0,1,2,20,40
+KC,Patrick Mahomes,passing,224,6.1,1,0,2,22,37
+LAC,Justin Herbert,passing,300,6.4,1,1,5,28,47
+LAR,Joshua Karty,passing,0,0.0,0,0,0,0,1
+LAR,Matthew Stafford,passing,196,5.9,2,1,1,19,33
+LV,Geno Smith,passing,289,10.0,3,0,5,19,29
+MIA,Tua Tagovailoa,passing,146,4.3,2,1,0,22,34
+MIN,Max Brosmer,passing,29,7.3,0,0,0,2,4
+MIN,Carson Wentz,passing,173,8.7,2,0,3,14,20
+NE,Drake Maye,passing,268,7.2,2,1,5,28,37
+NO,Spencer Rattler,passing,218,5.6,1,1,2,28,39
+NO,Tyler Shough,passing,0,0.0,0,0,0,0,2
+NYG,Russell Wilson,passing,160,5.0,0,2,2,18,32
+NYJ,Tyrod Taylor,passing,197,5.5,2,1,4,26,36
+PHI,Jalen Hurts,passing,226,7.1,3,0,4,21,32
+PIT,Aaron Rodgers,passing,139,6.0,2,1,0,16,23
+SEA,Sam Darnold,passing,218,12.1,2,0,0,14,18
+SEA,Drew Lock,passing,15,5.0,0,0,0,2,3
+SF,Mac Jones,passing,284,6.9,1,1,1,27,41
+TB,Baker Mayfield,passing,233,8.0,1,0,1,19,29
+TEN,Cam Ward,passing,219,5.8,1,1,4,23,38
+WSH,Marcus Mariota,passing,207,9.9,1,0,1,15,21

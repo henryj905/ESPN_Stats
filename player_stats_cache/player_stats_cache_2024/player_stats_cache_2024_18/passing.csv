@@ -1,0 +1,46 @@
+team,player,category,YDS,AVG,TD,INT,SACKS,COMP,ATT
+ARI,Kyler Murray,passing,242,6.9,4,0,0,25,35
+ATL,Michael Penix Jr.,passing,312,8.2,2,1,1,21,38
+BAL,Lamar Jackson,passing,217,6.8,2,0,0,16,32
+BUF,Mitchell Trubisky,passing,101,4.8,1,0,0,15,21
+BUF,Mike White,passing,28,2.5,0,0,0,3,11
+CAR,Bryce Young,passing,251,7.4,3,0,0,25,34
+CAR,Jalen Coker,passing,19,19.0,0,0,0,1,1
+CHI,Keenan Allen,passing,0,0.0,0,1,0,0,1
+CHI,Caleb Williams,passing,148,5.1,1,0,1,21,29
+CIN,Joe Burrow,passing,277,6.0,1,1,4,37,46
+CLE,Bailey Zappe,passing,170,5.5,1,2,1,16,31
+CLE,Dorian Thompson-Robinson,passing,13,4.3,0,0,1,2,3
+DAL,Trey Lance,passing,244,7.2,0,0,2,20,34
+DEN,Bo Nix,passing,321,11.1,4,0,0,26,29
+DET,Jared Goff,passing,231,7.0,1,2,2,27,33
+GB,Jordan Love,passing,69,5.8,0,0,0,7,12
+GB,Malik Willis,passing,136,10.5,0,0,3,10,13
+HOU,Davis Mills,passing,128,5.8,0,0,1,12,22
+HOU,C.J. Stroud,passing,50,8.3,1,0,0,6,6
+IND,Joe Flacco,passing,264,6.6,1,0,3,23,40
+JAX,Mac Jones,passing,225,7.0,1,1,2,20,32
+KC,Chris Oladokun,passing,0,0.0,0,0,1,0,0
+KC,Carson Wentz,passing,98,5.8,0,0,4,10,17
+LAC,Justin Herbert,passing,346,9.6,2,0,1,28,36
+LAR,Jimmy Garoppolo,passing,334,8.1,2,1,3,27,41
+LV,Desmond Ridder,passing,11,5.5,0,0,0,1,2
+LV,Aidan O'Connell,passing,214,6.3,2,1,0,24,34
+MIA,Tyler Huntley,passing,227,5.5,1,2,4,25,41
+MIN,Sam Darnold,passing,166,4.0,0,0,2,18,41
+NE,Drake Maye,passing,0,0.0,0,0,1,0,1
+NE,Joe Milton III,passing,241,8.3,1,0,0,22,29
+NO,Spencer Rattler,passing,240,5.7,1,0,2,26,42
+NYG,Drew Lock,passing,138,4.8,1,1,0,22,29
+NYJ,Aaron Rodgers,passing,274,7.6,4,1,3,23,36
+NYJ,Allen Lazard,passing,0,0.0,0,0,0,0,1
+PHI,Tanner McKee,passing,269,6.6,2,0,2,27,41
+PIT,Russell Wilson,passing,148,4.8,1,0,4,17,31
+SEA,Geno Smith,passing,223,8.3,4,0,2,20,27
+SF,Joshua Dobbs,passing,326,7.6,2,2,2,29,43
+TB,Baker Mayfield,passing,221,6.9,2,1,1,21,32
+TEN,Mason Rudolph,passing,70,7.8,0,0,1,7,9
+TEN,Will Levis,passing,175,10.3,1,0,1,9,17
+WSH,Dyami Brown,passing,0,0.0,0,0,0,0,1
+WSH,Jayden Daniels,passing,38,3.2,0,0,4,6,12
+WSH,Marcus Mariota,passing,161,8.9,2,0,2,15,18

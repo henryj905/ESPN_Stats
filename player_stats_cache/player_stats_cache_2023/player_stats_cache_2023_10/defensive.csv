@@ -1,0 +1,551 @@
+team,player,category,TOT,SOLO,SACKS,TFL,PD,QB HTS,TD
+ARI,Budda Baker,defensive,10,5,0.0,0,0,0,0
+ARI,Leki Fotu,defensive,1,0,0.0,0,0,0,0
+ARI,Garrett Williams,defensive,1,1,0.0,0,0,0,0
+ARI,Kyler Murray,defensive,1,1,0.0,0,0,0,0
+ARI,Starling Thomas V,defensive,2,1,0.0,0,0,0,0
+ARI,Dante Stills,defensive,3,0,0.0,0,0,0,0
+ARI,Jalen Thompson,defensive,3,2,0.0,0,0,0,0
+ARI,Marco Wilson,defensive,3,3,0.0,0,1,0,0
+ARI,Jonathan Ledbetter,defensive,4,3,0.0,0,0,0,0
+ARI,Josh Woods,defensive,4,3,0.0,0,0,0,0
+ARI,Zaven Collins,defensive,5,3,0.0,0,0,1,0
+ARI,Roy Lopez,defensive,5,3,0.0,0,0,0,0
+ARI,Kevin Strong,defensive,5,3,0.0,1,0,0,0
+ARI,Dennis Gardeck,defensive,5,3,1.0,1,1,1,0
+ARI,BJ Ojulari,defensive,8,4,2.0,2,0,2,0
+ARI,Kyzir White,defensive,11,6,0.0,0,0,0,0
+ARI,Victor Dimukeje,defensive,1,0,0.0,0,0,1,0
+ARI,Cameron Thomas,defensive,1,0,0.0,0,0,0,0
+ARI,Antonio Hamilton Sr.,defensive,1,1,0.0,0,0,0,0
+ATL,Nate Landman,defensive,8,7,1.0,1,1,1,0
+ATL,Zach Harrison,defensive,1,0,0.0,0,0,0,0
+ATL,DeAngelo Malone,defensive,1,0,0.0,0,0,0,0
+ATL,Jeff Okudah,defensive,1,0,0.0,0,0,0,0
+ATL,Timmy Horne,defensive,1,0,0.0,0,1,0,0
+ATL,Mike Hughes,defensive,1,0,0.0,0,0,0,0
+ATL,Bud Dupree,defensive,1,0,0.0,0,0,0,0
+ATL,Clark Phillips III,defensive,1,1,0.0,0,1,0,0
+ATL,Ta'Quon Graham,defensive,1,1,0.0,0,0,0,0
+ATL,A.J. Terrell Jr.,defensive,2,2,0.0,0,2,0,0
+ATL,Albert Huggins,defensive,1,1,0.0,0,0,0,0
+ATL,Lorenzo Carter,defensive,1,1,0.0,0,0,0,0
+ATL,Kentavius Street,defensive,1,1,0.0,0,1,0,0
+ATL,DeMarcco Hellams,defensive,2,1,0.0,0,0,0,0
+ATL,Keith Smith,defensive,2,1,0.0,0,0,0,0
+ATL,Richie Grant,defensive,9,7,0.0,0,0,0,0
+ATL,Kaden Elliss,defensive,11,6,1.0,1,0,1,0
+ATL,Jessie Bates III,defensive,13,11,0.0,0,0,0,0
+BAL,Patrick Queen,defensive,9,6,0.0,0,0,0,0
+BAL,Roquan Smith,defensive,21,14,0.0,0,0,0,0
+BAL,Brandon Stephens,defensive,1,0,0.0,0,0,0,0
+BAL,Jadeveon Clowney,defensive,6,2,2.0,2,0,2,0
+BAL,Broderick Washington Jr.,defensive,1,0,0.0,0,0,0,0
+BAL,Tavius Robinson,defensive,1,1,0.0,0,0,0,0
+BAL,Jordan Stout,defensive,1,1,0.0,0,0,0,0
+BAL,Rock Ya-Sin,defensive,1,1,0.0,0,0,0,0
+BAL,Nelson Agholor,defensive,1,1,0.0,0,0,0,0
+BAL,Marcus Williams,defensive,2,0,0.0,0,0,0,0
+BAL,Kyle Hamilton,defensive,8,8,0.0,0,2,1,1
+BAL,Brent Urban,defensive,2,1,0.0,0,0,0,0
+BAL,Kyle Van Noy,defensive,3,0,0.0,0,0,0,0
+BAL,Nnamdi Madubuike,defensive,3,1,1.0,1,0,3,0
+BAL,Marlon Humphrey,defensive,3,3,0.0,1,0,0,0
+BAL,Michael Pierce,defensive,4,3,0.0,0,0,0,0
+BAL,Odafe Oweh,defensive,4,4,1.0,0,0,2,0
+BAL,Arthur Maulet,defensive,1,0,0.0,0,0,0,0
+BAL,Travis Jones,defensive,3,0,0.0,0,0,0,0
+BAL,Geno Stone,defensive,5,2,0.0,0,1,0,0
+BUF,Tim Settle,defensive,1,0,0.0,0,0,0,0
+BUF,Jordan Poyer,defensive,9,7,0.0,0,0,0,0
+BUF,James Cook III,defensive,1,1,0.0,0,0,0,0
+BUF,Gabe Davis,defensive,1,1,0.0,0,0,0,0
+BUF,Damar Hamlin,defensive,1,1,0.0,0,0,0,0
+BUF,Tyler Bass,defensive,1,1,0.0,0,0,0,0
+BUF,Stefon Diggs,defensive,1,1,0.0,0,0,0,0
+BUF,Jordan Phillips,defensive,1,1,0.0,0,0,0,0
+BUF,Von Miller,defensive,1,1,0.0,0,0,0,0
+BUF,Linval Joseph,defensive,2,0,0.0,0,0,0,0
+BUF,Cam Lewis,defensive,2,1,0.0,0,0,0,0
+BUF,Terrel Bernard,defensive,13,8,1.0,0,0,1,0
+BUF,Reid Ferguson,defensive,2,2,0.0,0,0,0,0
+BUF,AJ Epenesa,defensive,3,1,1.5,1,0,3,0
+BUF,Dorian Williams,defensive,3,2,0.0,0,0,0,0
+BUF,Ed Oliver,defensive,4,3,0.0,0,0,0,0
+BUF,Dane Jackson,defensive,4,3,0.0,0,0,0,0
+BUF,Tyrel Dodson,defensive,6,4,0.0,0,0,1,0
+BUF,Greg Rousseau,defensive,6,4,1.0,1,0,2,0
+BUF,Rasul Douglas,defensive,6,5,0.0,0,0,0,0
+BUF,Taylor Rapp,defensive,7,4,0.5,0,0,1,0
+BUF,Taron Johnson,defensive,7,5,0.0,0,0,0,0
+BUF,Leonard Floyd,defensive,3,1,0.0,1,0,0,0
+BUF,Shaq Lawson,defensive,1,0,0.0,0,0,0,0
+CAR,Frankie Luvu,defensive,11,6,0.0,0,0,0,0
+CAR,DeShawn Williams,defensive,1,0,0.0,0,0,1,0
+CAR,Nick Thurman,defensive,2,1,0.0,0,0,0,0
+CAR,Troy Hill,defensive,2,1,0.0,0,0,0,0
+CAR,Jammie Robinson,defensive,2,2,0.0,0,0,0,0
+CAR,Eku Leota,defensive,3,2,0.0,0,0,0,0
+CAR,Matthias Farley,defensive,1,1,0.0,0,0,0,0
+CAR,Marquis Haynes Sr.,defensive,1,1,0.0,0,0,0,0
+CAR,LaBryan Ray,defensive,1,0,0.0,0,0,0,0
+CAR,Ihmir Smith-Marsette,defensive,0,0,0.0,0,0,0,1
+CAR,Sam Franklin Jr.,defensive,2,1,0.0,0,0,0,0
+CAR,DJ Johnson,defensive,2,1,0.0,0,0,0,0
+CAR,Derrick Brown,defensive,10,9,0.0,2,0,2,0
+CAR,Donte Jackson,defensive,7,5,0.0,0,2,0,0
+CAR,Amare Barno,defensive,5,5,0.0,0,0,0,0
+CAR,Deion Jones,defensive,5,4,0.0,1,1,0,0
+CAR,Xavier Woods,defensive,5,4,0.0,0,0,0,0
+CAR,Dicaprio Bootle,defensive,4,4,0.0,0,1,0,0
+CAR,Vonn Bell,defensive,4,2,0.0,0,0,1,0
+CAR,Kamu Grugier-Hill,defensive,3,2,0.0,0,0,0,0
+CHI,Eddie Jackson,defensive,2,2,0.0,0,0,0,0
+CHI,Justin Jones,defensive,3,3,1.0,1,0,3,0
+CHI,T.J. Edwards,defensive,12,5,0.0,0,0,0,0
+CHI,Jaquan Brisker,defensive,9,5,0.0,1,1,0,0
+CHI,Kyler Gordon,defensive,8,7,0.0,2,1,0,0
+CHI,Montez Sweat,defensive,0,0,0.0,0,0,3,0
+CHI,Noah Sewell,defensive,1,1,0.0,0,0,0,0
+CHI,Gervon Dexter Sr.,defensive,1,1,0.0,0,0,1,0
+CHI,Tyrique Stevenson,defensive,3,1,0.0,0,1,0,0
+CHI,Jaylon Johnson,defensive,1,1,0.0,0,0,0,0
+CHI,Josh Blackwell,defensive,1,1,0.0,0,0,0,0
+CHI,Rasheem Green,defensive,1,1,1.0,1,0,1,0
+CHI,DeMarcus Walker,defensive,2,0,0.0,0,0,0,0
+CHI,Andrew Billings,defensive,2,1,0.0,0,0,0,0
+CHI,Yannick Ngakoue,defensive,2,2,1.0,1,0,1,0
+CHI,Zacch Pickens,defensive,1,1,0.0,0,0,0,0
+CHI,Jack Sanborn,defensive,7,3,0.0,0,1,0,0
+CIN,Jay Tufele,defensive,1,0,0.0,0,0,0,0
+CIN,Myles Murphy,defensive,1,0,0.0,0,0,0,0
+CIN,DJ Turner II,defensive,3,1,0.0,0,1,0,0
+CIN,Nick Scott,defensive,3,1,0.0,0,0,0,0
+CIN,Jordan Battle,defensive,3,2,0.0,0,0,0,0
+CIN,B.J. Hill,defensive,3,2,0.0,0,0,1,0
+CIN,Trey Hendrickson,defensive,4,2,0.5,0,0,1,0
+CIN,Logan Wilson,defensive,5,2,0.5,0,1,1,0
+CIN,Cameron Sample,defensive,5,3,0.0,0,0,0,0
+CIN,Germaine Pratt,defensive,8,4,0.0,1,0,0,0
+CIN,Dax Hill,defensive,7,4,0.0,0,2,0,0
+CIN,Mike Hilton,defensive,8,6,0.0,0,0,0,0
+CIN,Cam Taylor-Britt,defensive,9,7,0.0,0,2,0,0
+CIN,DJ Reader,defensive,2,2,0.0,0,0,1,0
+CIN,Markus Bailey,defensive,1,1,0.0,0,0,0,0
+CIN,Cordell Volson,defensive,1,1,0.0,0,0,0,0
+CIN,Chris Evans,defensive,1,1,0.0,0,0,0,0
+CIN,Shedrick Jackson,defensive,1,1,0.0,0,0,0,0
+CIN,Zachary Carter,defensive,1,0,0.0,0,0,0,0
+CIN,Chidobe Awuzie,defensive,8,5,0.0,0,1,0,0
+CLE,Dalvin Tomlinson,defensive,1,0,0.0,0,0,0,0
+CLE,Alex Wright,defensive,1,0,0.0,0,0,0,0
+CLE,Rodney McLeod Jr.,defensive,1,0,0.0,0,0,0,0
+CLE,Jordan Elliott,defensive,1,1,0.0,0,0,0,0
+CLE,Kahlef Hailassie,defensive,1,1,0.0,0,0,0,0
+CLE,Harrison Bryant,defensive,1,1,0.0,0,0,0,0
+CLE,Denzel Ward,defensive,1,1,0.0,0,0,0,0
+CLE,Maurice Hurst II,defensive,1,1,0.0,0,0,0,0
+CLE,Shelby Harris,defensive,2,0,0.0,0,0,0,0
+CLE,Greg Newsome II,defensive,2,1,0.5,0,1,1,1
+CLE,Ogbo Okoronkwo,defensive,2,1,0.0,0,1,0,0
+CLE,Anthony Walker Jr.,defensive,2,1,0.0,0,0,0,0
+CLE,Mike Ford Jr.,defensive,2,2,0.0,0,2,0,0
+CLE,Sione Takitaki,defensive,3,1,0.0,0,0,0,0
+CLE,Myles Garrett,defensive,3,1,1.5,1,0,2,0
+CLE,Juan Thornhill,defensive,3,2,0.0,0,0,0,0
+CLE,Za'Darius Smith,defensive,4,2,0.5,0,0,2,0
+CLE,Grant Delpit,defensive,6,5,0.0,1,1,0,0
+CLE,Mohamoud Diabate,defensive,1,1,0.0,0,0,0,0
+CLE,Jeremiah Owusu-Koramoah,defensive,7,4,0.5,2,1,1,0
+CLE,Martin Emerson Jr.,defensive,8,6,0.0,0,0,0,0
+DAL,DaRon Bland,defensive,4,3,0.0,0,1,0,0
+DAL,Dante Fowler Jr.,defensive,2,2,1.0,1,0,1,0
+DAL,Malik Hooker,defensive,3,1,0.0,0,0,0,0
+DAL,Donovan Wilson,defensive,3,2,0.0,0,0,0,0
+DAL,Sam Williams,defensive,3,2,1.0,1,0,1,0
+DAL,Dorance Armstrong,defensive,3,2,1.0,1,0,1,0
+DAL,Neville Gallimore,defensive,3,2,1.0,1,0,2,0
+DAL,Mazi Smith,defensive,3,3,0.0,1,0,1,0
+DAL,Jayron Kearse,defensive,3,3,0.0,0,0,0,0
+DAL,Damone Clark,defensive,4,3,0.0,0,0,0,0
+DAL,Juanyeh Thomas,defensive,1,1,0.0,0,1,0,0
+DAL,Rico Dowdle,defensive,1,0,0.0,0,0,0,0
+DAL,Sean McKeon,defensive,1,0,0.0,0,0,0,0
+DAL,Chauncey Golston,defensive,1,0,0.0,0,0,0,0
+DAL,Nahshon Wright,defensive,1,1,0.0,0,1,0,0
+DAL,Michael Gallup,defensive,1,1,0.0,0,0,0,0
+DAL,Jourdan Lewis,defensive,2,2,0.0,0,0,0,0
+DAL,Markquese Bell,defensive,2,2,0.0,0,0,0,0
+DAL,Tyler Smith,defensive,1,1,0.0,0,0,0,0
+DAL,DeMarcus Lawrence,defensive,2,1,1.0,1,0,1,0
+DAL,Johnathan Hankins,defensive,2,1,0.0,0,0,0,0
+DAL,Rashaan Evans,defensive,2,0,0.0,0,0,0,0
+DAL,Stephon Gilmore,defensive,1,1,0.0,0,2,0,0
+DAL,Osa Odighizuwa,defensive,1,1,0.0,1,0,0,0
+DAL,Israel Mukuamu,defensive,2,2,0.0,0,1,0,0
+DEN,Fabian Moreau,defensive,5,2,0.0,0,2,0,0
+DEN,Justin Simmons,defensive,5,2,0.0,0,1,0,0
+DEN,Ja'Quan McMillian,defensive,5,4,0.0,0,0,0,0
+DEN,Josey Jewell,defensive,6,3,0.0,0,0,0,0
+DEN,Alex Singleton,defensive,11,3,0.0,0,0,0,0
+DEN,Zach Allen,defensive,1,1,0.0,0,1,2,0
+DEN,Ronnie Perkins,defensive,1,1,0.0,0,0,0,0
+DEN,Justin Strnad,defensive,1,0,0.0,0,0,0,0
+DEN,Damarri Mathis,defensive,1,0,0.0,0,0,0,0
+DEN,Nik Bonitto,defensive,2,0,0.0,0,0,1,0
+DEN,Pat Surtain II,defensive,2,1,0.0,0,0,0,0
+DEN,P.J. Locke,defensive,2,1,0.0,0,0,0,0
+DEN,Jonathon Cooper,defensive,2,2,0.0,0,0,0,0
+DEN,Baron Browning,defensive,3,2,0.0,0,0,0,0
+DEN,D.J. Jones,defensive,4,2,0.0,1,0,0,0
+DEN,Dwayne Washington,defensive,1,0,0.0,0,0,0,0
+DEN,Delarrin Turner-Yell,defensive,5,2,0.0,0,0,0,0
+DET,Tracy Walker III,defensive,6,5,0.0,0,0,0,0
+DET,Alex Anzalone,defensive,9,4,0.0,0,1,2,0
+DET,Kerby Joseph,defensive,7,5,0.0,0,1,0,0
+DET,Derrick Barnes,defensive,4,2,0.0,0,0,0,0
+DET,Benito Jones,defensive,5,3,0.0,0,0,0,0
+DET,Jack Campbell,defensive,5,3,0.0,0,0,0,0
+DET,Brian Branch,defensive,4,3,0.0,0,0,0,0
+DET,Aidan Hutchinson,defensive,3,2,0.0,0,0,3,0
+DET,Malcolm Rodriguez,defensive,3,1,0.0,0,0,0,0
+DET,Jerry Jacobs,defensive,2,2,0.0,0,2,0,0
+DET,Romeo Okwara,defensive,2,1,0.0,0,0,0,0
+DET,Charles Harris,defensive,2,1,0.0,0,0,0,0
+DET,Julian Okwara,defensive,2,1,0.0,0,0,0,0
+DET,Khalil Dorsey,defensive,1,1,0.0,0,0,0,0
+DET,John Cominsky,defensive,1,1,0.0,0,0,0,0
+DET,Will Harris,defensive,1,0,0.0,0,0,0,0
+DET,Cameron Sutton,defensive,5,5,0.0,1,1,0,0
+DET,Alim McNeill,defensive,6,2,0.0,0,0,0,0
+GB,Rashan Gary,defensive,3,1,0.0,0,0,1,0
+GB,Isaiah McDuffie,defensive,10,7,0.0,0,0,1,0
+GB,Josiah Deguara,defensive,2,1,0.0,0,0,0,0
+GB,Kristian Welch,defensive,2,1,0.0,0,0,0,0
+GB,Carrington Valentine,defensive,2,1,0.0,0,0,0,0
+GB,Devonte Wyatt,defensive,2,0,0.0,0,0,0,0
+GB,Robert Rochell,defensive,1,1,0.0,0,0,0,0
+GB,Zach Tom,defensive,1,1,0.0,0,0,0,0
+GB,Romeo Doubs,defensive,1,1,0.0,0,0,0,0
+GB,Eric Wilson,defensive,1,0,0.0,0,0,0,0
+GB,Zayne Anderson,defensive,1,0,0.0,0,0,0,0
+GB,Anthony Johnson Jr.,defensive,1,0,0.0,0,0,0,0
+GB,De'Vondre Campbell,defensive,3,1,0.0,0,1,1,0
+GB,Rudy Ford,defensive,10,7,0.0,0,0,0,0
+GB,Lukas Van Ness,defensive,3,2,0.0,1,0,0,0
+GB,Keisean Nixon,defensive,4,2,0.0,0,1,0,0
+GB,Preston Smith,defensive,4,3,1.0,1,0,1,0
+GB,Corey Ballentine,defensive,6,3,0.0,0,2,0,0
+GB,T.J. Slaton Jr.,defensive,8,4,0.0,0,0,0,0
+GB,Jonathan Owens,defensive,8,7,0.0,0,1,0,0
+GB,Kenny Clark,defensive,3,3,0.0,0,0,0,0
+GB,Innis Gaines,defensive,1,1,0.0,0,0,0,0
+HOU,Shaquill Griffin,defensive,5,2,0.0,0,1,0,0
+HOU,Denzel Perryman,defensive,5,4,0.0,2,0,0,0
+HOU,Christian Harris,defensive,5,2,0.0,0,0,0,0
+HOU,Sheldon Rankins,defensive,5,5,3.0,2,0,4,0
+HOU,Blake Cashman,defensive,6,3,0.0,0,0,0,0
+HOU,DeAndre Houston-Carson,defensive,7,7,0.0,0,1,0,0
+HOU,Tavierre Thomas,defensive,8,4,0.0,0,0,0,0
+HOU,Maliek Collins,defensive,4,2,0.0,0,0,1,0
+HOU,Steven Nelson,defensive,4,2,0.0,0,0,0,0
+HOU,Robert Woods,defensive,1,1,0.0,0,0,0,0
+HOU,Dare Ogunbowale,defensive,2,2,0.0,0,0,0,0
+HOU,Jonathan Greenard,defensive,3,3,1.0,2,0,1,0
+HOU,Tank Dell,defensive,1,1,0.0,0,0,0,0
+HOU,Dylan Horton,defensive,1,1,0.0,0,0,1,0
+HOU,Khalil Davis,defensive,1,0,0.0,0,0,0,0
+HOU,Will Anderson Jr.,defensive,1,0,0.0,0,0,2,0
+HOU,Kurt Hinish,defensive,2,0,0.0,0,0,0,0
+IND,Adetomiwa Adebawore,defensive,1,1,0.0,0,0,1,0
+IND,Zaire Franklin,defensive,15,12,0.0,0,0,0,0
+IND,Shaquille Leonard,defensive,9,2,0.0,0,0,0,0
+IND,DeForest Buckner,defensive,8,4,0.0,1,0,2,0
+IND,Kenny Moore II,defensive,6,5,0.0,0,0,0,0
+IND,Jaylon Jones,defensive,5,4,0.0,0,0,0,0
+IND,Julian Blackmon,defensive,4,4,0.0,0,2,0,0
+IND,Darrell Baker Jr.,defensive,4,3,0.0,0,0,0,0
+IND,E.J. Speed,defensive,3,3,0.0,0,0,0,0
+IND,Kwity Paye,defensive,3,2,1.0,0,0,1,0
+IND,Samson Ebukam,defensive,3,2,0.0,0,0,0,0
+IND,Tyquan Lewis,defensive,2,2,1.0,1,0,2,0
+IND,Taven Bryan,defensive,2,2,0.0,1,0,0,0
+IND,Eric Johnson II,defensive,2,2,0.0,0,0,0,0
+IND,Rodney Thomas II,defensive,2,2,0.0,0,1,0,0
+IND,Kylen Granson,defensive,1,1,0.0,0,0,0,0
+IND,Ameer Speed,defensive,1,1,0.0,0,0,0,0
+IND,Dayo Odeyingbo,defensive,4,4,3.0,3,0,3,0
+JAX,Foyesade Oluokun,defensive,9,6,2.0,3,0,2,0
+JAX,Devin Lloyd,defensive,10,7,0.0,0,0,0,0
+JAX,Darious Williams,defensive,0,0,0.0,0,1,0,0
+JAX,Travis Etienne Jr.,defensive,1,1,0.0,0,0,0,0
+JAX,Ross Matiscik,defensive,1,1,0.0,0,0,0,0
+JAX,Jeremiah Ledbetter,defensive,2,0,0.0,0,0,0,0
+JAX,Antonio Johnson,defensive,2,1,0.0,0,0,0,0
+JAX,Gregory Junior,defensive,2,1,0.0,0,0,0,0
+JAX,Chad Muma,defensive,2,2,0.0,0,0,0,0
+JAX,Dawuane Smoot,defensive,2,2,0.0,0,0,0,0
+JAX,Tyler Lacy,defensive,3,0,0.0,0,0,1,0
+JAX,Adam Gotsis,defensive,3,1,0.0,0,0,0,0
+JAX,Tyson Campbell,defensive,3,2,0.0,0,0,0,0
+JAX,Josh Hines-Allen,defensive,3,2,0.0,0,0,1,0
+JAX,Andre Cisco,defensive,4,2,0.0,0,0,0,0
+JAX,Tre Herndon,defensive,4,3,0.0,0,0,0,0
+JAX,Rayshawn Jenkins,defensive,5,3,0.0,0,1,0,0
+JAX,Andrew Wingard,defensive,7,3,0.0,0,0,0,0
+JAX,K'Lavon Chaisson,defensive,1,1,0.0,0,0,0,0
+JAX,Travon Walker,defensive,0,0,0.0,0,1,2,0
+JAX,Trevor Lawrence,defensive,1,1,0.0,0,0,0,0
+JAX,DaVon Hamilton,defensive,1,0,0.0,0,0,0,0
+JAX,Folorunso Fatukasi,defensive,1,0,0.0,0,1,1,0
+JAX,Roy Robertson-Harris,defensive,1,0,0.0,0,0,0,0
+LAC,Asante Samuel Jr.,defensive,1,1,0.0,0,0,0,0
+LAC,Eric Kendricks,defensive,6,5,0.0,0,0,0,0
+LAC,Deane Leonard,defensive,5,2,0.0,0,1,0,0
+LAC,Khalil Mack,defensive,4,4,0.0,1,0,1,0
+LAC,Ja'Sir Taylor,defensive,4,3,0.0,0,0,0,0
+LAC,Nick Williams,defensive,3,2,0.0,0,0,0,0
+LAC,Otito Ogbonnia,defensive,3,2,0.0,0,0,0,0
+LAC,Sebastian Joseph-Day,defensive,3,1,0.0,0,0,0,0
+LAC,Austin Johnson,defensive,2,0,0.0,0,0,1,0
+LAC,Josh Harris,defensive,1,1,0.0,0,0,0,0
+LAC,Dean Marlowe,defensive,1,1,0.0,0,0,0,0
+LAC,Joey Bosa,defensive,1,1,0.0,1,0,0,0
+LAC,Morgan Fox,defensive,1,1,0.0,0,0,0,0
+LAC,Tuli Tuipulotu,defensive,1,0,0.0,0,0,0,0
+LAC,Kenneth Murray Jr.,defensive,5,4,0.0,1,0,0,0
+LAC,Derwin James Jr.,defensive,13,8,0.0,2,0,0,0
+LAC,Alohi Gilman,defensive,7,6,0.0,0,1,0,0
+LV,Maxx Crosby,defensive,3,0,0.0,0,0,2,0
+LV,Luke Masterson,defensive,1,0,0.0,0,0,0,0
+LV,Malik Reed,defensive,1,0,0.0,0,0,0,0
+LV,Curtis Bolton III,defensive,1,0,0.0,0,0,0,0
+LV,Michael Mayer,defensive,1,1,0.0,0,0,0,0
+LV,Amari Burney,defensive,1,1,0.0,0,0,0,0
+LV,Ameer Abdullah,defensive,2,2,0.0,0,0,0,0
+LV,Malcolm Koonce,defensive,2,2,1.0,0,0,2,0
+LV,Bilal Nichols,defensive,3,1,0.0,0,0,0,0
+LV,Amik Robertson,defensive,3,2,0.0,0,0,0,0
+LV,Tre'von Moehrig,defensive,3,3,0.0,0,0,0,0
+LV,Tyler Hall,defensive,3,3,0.0,0,0,0,0
+LV,Adam Butler,defensive,3,2,0.0,1,1,0,0
+LV,Jerry Tillery,defensive,4,3,0.0,0,0,1,0
+LV,Marcus Epps,defensive,4,3,0.0,0,0,0,0
+LV,Jakorian Bennett,defensive,4,4,0.0,0,0,0,0
+LV,Nate Hobbs,defensive,5,5,0.0,0,1,0,0
+LV,Divine Deablo,defensive,7,4,0.0,0,1,0,0
+LV,Robert Spillane,defensive,7,4,1.0,1,1,0,0
+LV,John Jenkins,defensive,4,2,0.0,0,1,0,0
+MIN,Joshua Metellus,defensive,7,5,0.0,1,0,2,0
+MIN,Jordan Hicks,defensive,7,3,0.0,1,0,0,0
+MIN,Harrison Smith,defensive,5,4,0.0,0,0,0,0
+MIN,Harrison Phillips,defensive,5,3,0.0,0,0,0,0
+MIN,Ivan Pace Jr.,defensive,5,3,0.0,0,0,0,0
+MIN,DJ Wonnum,defensive,4,3,1.0,1,0,1,0
+MIN,Troy Dye,defensive,4,2,0.0,0,0,0,0
+MIN,Andrew Booth,defensive,1,1,0.0,0,0,0,0
+MIN,Cam Bynum,defensive,3,1,0.0,0,1,0,0
+MIN,Theo Jackson,defensive,3,1,0.0,0,0,0,0
+MIN,Patrick Jones II,defensive,2,1,0.0,0,0,0,0
+MIN,Jonathan Bullard,defensive,2,1,1.0,0,0,1,0
+MIN,Mekhi Blackmon,defensive,2,2,0.0,0,2,0,0
+MIN,Danielle Hunter,defensive,2,2,1.0,1,0,3,0
+MIN,Akayleb Evans,defensive,2,1,0.0,0,1,0,0
+MIN,Byron Murphy Jr.,defensive,3,3,0.0,1,3,0,0
+MIN,NaJee Thompson,defensive,1,1,0.0,0,0,0,0
+NE,Jabrill Peppers,defensive,5,3,0.0,1,0,0,0
+NE,Deatrich Wise Jr.,defensive,3,1,0.0,0,1,0,0
+NE,Davon Godchaux,defensive,8,4,0.0,0,0,0,0
+NE,Lawrence Guy,defensive,1,0,0.0,0,1,0,0
+NE,Keion White,defensive,1,1,0.0,0,0,0,0
+NE,Cole Strange,defensive,1,1,0.0,0,0,0,0
+NE,Jalen Mills,defensive,3,2,0.0,0,0,0,0
+NE,Mack Wilson Sr.,defensive,1,1,0.0,0,0,0,0
+NE,Calvin Munson,defensive,1,1,0.0,0,0,0,0
+NE,Pharaoh Brown,defensive,1,1,0.0,0,0,0,0
+NE,Jonathan Jones,defensive,1,1,0.0,0,0,0,0
+NE,Ty Montgomery II,defensive,1,1,0.0,0,0,0,0
+NE,Shaun Wade,defensive,3,3,0.0,1,0,0,0
+NE,Christian Barmore,defensive,4,2,0.0,1,0,1,0
+NE,Kyle Dugger,defensive,4,3,0.0,0,0,0,0
+NE,Myles Bryant,defensive,2,2,0.0,0,1,0,0
+NE,Anfernee Jennings,defensive,7,4,0.0,0,0,0,0
+NE,Jahlani Tavai,defensive,7,4,0.0,0,1,0,0
+NE,Jack Jones,defensive,2,2,0.0,0,0,0,0
+NO,Bryan Bresee,defensive,1,1,0.0,1,0,0,0
+NO,A.T. Perry,defensive,1,1,0.0,0,0,0,0
+NO,Kyle Phillips,defensive,1,0,0.0,0,0,0,0
+NO,Nephi Sewell,defensive,1,1,0.0,0,0,0,0
+NO,Demario Davis,defensive,9,6,1.0,1,0,1,0
+NO,Paulson Adebo,defensive,9,5,0.0,0,2,0,0
+NO,Tyrann Mathieu,defensive,8,7,0.0,0,0,0,0
+NO,Marcus Maye,defensive,6,6,0.0,1,0,0,0
+NO,Chris Olave,defensive,1,1,0.0,0,0,0,0
+NO,Alontae Taylor,defensive,5,4,0.0,1,2,0,0
+NO,Malcolm Roach,defensive,5,3,0.0,0,1,0,0
+NO,Marshon Lattimore,defensive,4,3,0.0,0,0,0,0
+NO,Pete Werner,defensive,6,3,0.0,1,0,0,0
+NO,Nathan Shepherd,defensive,3,2,0.0,0,0,0,0
+NO,Cameron Jordan,defensive,2,2,0.0,0,0,0,0
+NO,Khalen Saunders,defensive,2,2,0.0,1,0,1,0
+NO,Zack Baun,defensive,2,0,0.0,0,0,0,0
+NO,Tanoh Kpassagnon,defensive,1,1,0.0,0,1,1,0
+NO,Lonnie Johnson Jr.,defensive,1,1,0.0,0,0,0,0
+NO,D'Marco Jackson,defensive,1,1,0.0,0,0,0,0
+NO,Carl Granderson,defensive,4,1,0.0,0,0,1,0
+NYG,Bobby McCain,defensive,0,0,0.0,0,1,0,0
+NYG,Azeez Ojulari,defensive,1,0,0.0,0,0,0,0
+NYG,Daniel Bellinger,defensive,1,0,0.0,0,0,0,0
+NYG,Isaiah Simmons,defensive,1,0,0.0,0,0,0,0
+NYG,Jalin Hyatt,defensive,1,1,0.0,0,0,0,0
+NYG,Tre Hawkins III,defensive,1,1,0.0,0,0,0,0
+NYG,Gunner Olszewski,defensive,1,1,0.0,0,0,0,0
+NYG,Jihad Ward,defensive,1,1,0.0,0,0,1,0
+NYG,Cor'Dale Flott,defensive,2,2,0.0,0,1,0,0
+NYG,Bobby Okereke,defensive,11,7,0.0,0,0,1,0
+NYG,Xavier McKinney,defensive,10,8,0.0,0,0,0,0
+NYG,Jason Pinnock,defensive,9,7,0.0,0,0,0,0
+NYG,Darnay Holmes,defensive,6,6,0.0,0,1,0,0
+NYG,Micah McFadden,defensive,6,4,0.0,1,0,0,0
+NYG,Dexter Lawrence II,defensive,5,3,0.0,0,0,2,0
+NYG,Carter Coughlin,defensive,1,1,0.0,0,0,0,0
+NYG,Deonte Banks,defensive,3,3,0.0,0,1,0,0
+NYG,DJ Davidson,defensive,2,2,0.0,0,0,0,0
+NYG,Boogie Basham,defensive,3,1,0.0,0,0,0,0
+NYG,A'Shawn Robinson,defensive,3,1,0.0,1,0,0,0
+NYG,Nick McCloud,defensive,3,3,0.0,0,0,0,0
+NYG,Rakeem Nunez-Roches,defensive,3,3,0.0,1,1,0,0
+NYJ,Quincy Williams,defensive,7,4,0.0,1,0,0,0
+NYJ,C.J. Mosley,defensive,14,5,0.0,0,0,0,0
+NYJ,Jordan Whitehead,defensive,9,4,0.0,0,1,0,0
+NYJ,Micheal Clemons,defensive,1,0,0.0,0,0,0,0
+NYJ,Carl Lawson,defensive,1,0,0.0,0,0,0,0
+NYJ,Quinton Jefferson,defensive,1,0,0.0,0,0,1,0
+NYJ,Ashtyn Davis,defensive,1,1,0.0,0,0,0,0
+NYJ,Allen Lazard,defensive,1,1,0.0,0,0,0,0
+NYJ,Tanzel Smart,defensive,1,1,0.0,0,0,0,0
+NYJ,Sam Eguavoen,defensive,1,1,0.0,0,0,0,0
+NYJ,Tony Adams,defensive,8,4,0.0,1,0,0,0
+NYJ,John Franklin-Myers,defensive,2,1,1.0,1,0,1,0
+NYJ,Solomon Thomas,defensive,3,1,1.0,1,0,1,0
+NYJ,D.J. Reed,defensive,3,3,0.0,0,0,0,0
+NYJ,Quinnen Williams,defensive,4,2,0.5,1,1,3,0
+NYJ,Michael Carter II,defensive,4,3,0.0,0,0,0,0
+NYJ,Sauce Gardner,defensive,5,4,0.0,0,0,0,0
+NYJ,Jamien Sherwood,defensive,7,5,0.0,0,1,0,0
+NYJ,Jermaine Johnson II,defensive,2,0,0.5,0,1,1,0
+PIT,Miles Boykin,defensive,1,0,0.0,0,0,0,0
+PIT,Elandon Roberts,defensive,8,6,0.0,1,1,0,0
+PIT,Tariq Carpenter,defensive,1,0,0.0,0,0,0,0
+PIT,Larry Ogunjobi,defensive,1,0,0.0,0,0,0,0
+PIT,Rodney Williams,defensive,1,1,0.0,0,0,0,0
+PIT,Levi Wallace,defensive,1,1,0.0,0,0,0,0
+PIT,T.J. Watt,defensive,8,7,1.0,1,0,2,0
+PIT,Isaiahh Loudermilk,defensive,2,2,0.0,0,0,0,0
+PIT,Patrick Peterson,defensive,2,2,0.0,0,1,0,0
+PIT,Alex Highsmith,defensive,3,1,0.0,0,1,1,0
+PIT,Chandon Sullivan,defensive,1,1,0.0,0,1,0,0
+PIT,Elijah Riley,defensive,3,2,0.0,1,0,0,0
+PIT,Cameron Heyward,defensive,3,2,0.0,1,0,0,0
+PIT,James Pierre,defensive,3,3,0.0,0,0,0,0
+PIT,Joey Porter Jr.,defensive,4,3,0.0,1,0,0,0
+PIT,Damontae Kazee,defensive,5,4,0.0,0,1,0,0
+PIT,Keeanu Benton,defensive,6,3,0.0,0,1,2,0
+PIT,Keanu Neal,defensive,8,4,0.0,0,1,0,0
+PIT,Mark Robinson,defensive,3,2,0.0,0,0,0,0
+SEA,Dre'Mont Jones,defensive,2,1,0.5,0,0,2,0
+SEA,Brady Russell,defensive,1,0,0.0,0,0,0,0
+SEA,Frank Clark,defensive,1,0,0.0,0,0,0,0
+SEA,Jon Rhattigan,defensive,1,1,0.0,0,0,0,0
+SEA,Darrell Taylor,defensive,1,1,0.0,0,0,1,0
+SEA,Jarran Reed,defensive,1,1,0.0,0,0,0,0
+SEA,Jerrick Reed II,defensive,2,1,0.0,0,0,0,0
+SEA,Quandre Diggs,defensive,2,1,0.0,0,0,0,0
+SEA,Julian Love,defensive,7,4,0.0,0,0,0,0
+SEA,Nick Bellore,defensive,3,0,0.0,0,0,0,0
+SEA,Bobby Wagner,defensive,10,6,0.5,0,2,1,0
+SEA,Tre Brown,defensive,5,5,0.0,0,0,0,0
+SEA,Boye Mafe,defensive,5,4,1.0,1,1,1,0
+SEA,Jamal Adams,defensive,5,4,0.0,1,0,0,0
+SEA,Leonard Williams,defensive,2,2,1.0,1,0,1,0
+SEA,Jordyn Brooks,defensive,3,2,0.0,0,0,0,0
+SEA,Riq Woolen,defensive,3,1,0.0,0,1,0,0
+SEA,Derick Hall,defensive,3,1,0.0,0,0,0,0
+SEA,Devon Witherspoon,defensive,5,4,0.0,0,3,0,0
+SF,Shemar Jean-Charles,defensive,2,1,0.0,0,0,0,0
+SF,Deommodore Lenoir,defensive,7,4,0.0,0,0,0,0
+SF,Javon Hargrave,defensive,4,3,1.5,1,0,3,0
+SF,Ambry Thomas,defensive,3,3,0.0,0,0,0,0
+SF,Nick Bosa,defensive,3,2,1.5,1,1,2,0
+SF,Arik Armstead,defensive,3,2,0.5,0,0,1,0
+SF,Charvarius Ward,defensive,2,2,0.0,0,1,0,0
+SF,Fred Warner,defensive,7,4,0.0,0,1,1,0
+SF,Clelin Ferrell,defensive,1,1,1.0,1,0,1,0
+SF,Jordan Mason,defensive,2,1,0.0,0,0,0,0
+SF,Talanoa Hufanga,defensive,8,5,0.0,0,1,0,0
+SF,Tashaun Gipson Sr.,defensive,1,1,0.0,0,1,0,0
+SF,Curtis Robinson,defensive,1,1,0.0,0,0,0,0
+SF,Javon Kinlaw,defensive,1,1,0.0,0,1,0,0
+SF,Chase Young,defensive,1,0,0.5,0,0,2,0
+SF,Dee Winters,defensive,1,0,0.0,0,0,0,0
+SF,Ji'Ayir Brown,defensive,1,0,0.0,0,0,0,0
+SF,Dre Greenlaw,defensive,8,6,0.0,1,0,0,0
+TB,Chris Godwin Jr.,defensive,1,0,0.0,0,0,0,0
+TB,Deven Thompkins,defensive,1,0,0.0,0,0,0,0
+TB,Dee Delaney,defensive,0,0,0.0,0,1,0,0
+TB,Chase Edmonds,defensive,1,0,0.0,0,0,0,0
+TB,Zyon McCollum,defensive,5,3,0.0,0,1,0,0
+TB,Jamel Dean,defensive,5,1,0.0,0,1,0,0
+TB,Zach Triner,defensive,1,0,0.0,0,0,0,0
+TB,Lavonte David,defensive,5,3,0.0,2,1,0,0
+TB,Antoine Winfield Jr.,defensive,6,3,0.0,0,1,1,0
+TB,Calijah Kancey,defensive,3,3,0.0,2,0,2,0
+TB,Markees Watts,defensive,1,1,0.0,0,0,1,0
+TB,Mike Greene,defensive,1,0,0.0,0,0,0,0
+TB,Ko Kieft,defensive,1,1,0.0,0,0,0,0
+TB,Greg Gaines,defensive,1,1,0.0,0,0,0,0
+TB,Christian Izien,defensive,2,1,0.0,0,0,1,0
+TB,Joe Tryon-Shoyinka,defensive,2,2,0.0,1,0,0,0
+TB,Yaya Diaby,defensive,2,2,1.0,2,0,2,0
+TB,Kaevon Merriweather,defensive,1,1,0.0,0,0,0,0
+TB,Anthony Nelson,defensive,3,1,0.0,0,0,0,0
+TB,Ryan Neal,defensive,3,2,0.0,0,0,0,0
+TB,Devin White,defensive,3,2,1.0,1,1,2,0
+TB,Shaquil Barrett,defensive,3,2,1.0,1,0,2,0
+TB,Vita Vea,defensive,2,2,1.0,1,0,2,0
+TEN,Elijah Molden,defensive,8,6,0.0,0,0,0,0
+TEN,Azeez Al-Shaair,defensive,6,0,0.0,0,0,0,0
+TEN,Amani Hooker,defensive,5,4,0.0,0,0,0,0
+TEN,Eric Garror,defensive,5,4,0.0,1,0,0,0
+TEN,Roger McCreary,defensive,5,4,0.0,0,1,0,0
+TEN,Monty Rice,defensive,4,2,0.0,0,0,0,0
+TEN,Jeffery Simmons,defensive,4,2,0.0,0,1,1,0
+TEN,Denico Autry,defensive,3,3,1.0,1,0,1,0
+TEN,Teair Tart,defensive,3,2,1.0,2,0,1,0
+TEN,Harold Landry III,defensive,9,4,1.0,1,0,2,0
+TEN,TK McLendon Jr.,defensive,2,0,0.0,0,0,0,0
+TEN,Kyle Peko,defensive,4,3,0.0,0,0,0,0
+TEN,Jaleel Johnson,defensive,2,0,0.0,0,0,0,0
+TEN,Kristian Fulton,defensive,1,1,0.0,0,0,0,0
+TEN,Aaron Brewer,defensive,1,0,0.0,0,0,0,0
+TEN,Luke Gifford,defensive,1,1,0.0,0,0,0,0
+TEN,Jack Gibbens,defensive,2,0,0.0,0,0,0,0
+TEN,Dillon Radunz,defensive,1,0,0.0,0,0,0,0
+WSH,Danny Johnson,defensive,3,3,0.0,0,0,0,0
+WSH,Jamin Davis,defensive,11,6,0.0,2,0,0,0
+WSH,Andre Jones Jr.,defensive,1,0,0.0,0,1,0,0
+WSH,John Ridgeway III,defensive,1,0,0.0,0,0,0,0
+WSH,Phidarian Mathis,defensive,1,0,0.0,0,0,0,0
+WSH,Khaleke Hudson,defensive,1,0,0.0,0,0,0,0
+WSH,Christian Holmes,defensive,1,1,0.0,0,0,0,0
+WSH,James Smith-Williams,defensive,1,1,0.0,0,0,1,0
+WSH,Casey Toohill,defensive,2,1,0.0,1,1,1,0
+WSH,Kam Curl,defensive,10,7,0.0,0,0,1,0
+WSH,David Mayo,defensive,7,5,0.0,0,0,0,0
+WSH,Benjamin St-Juste,defensive,7,5,0.0,0,2,0,0
+WSH,Kendall Fuller,defensive,6,5,0.0,0,0,0,0
+WSH,Daron Payne,defensive,5,2,0.0,0,0,0,0
+WSH,Jonathan Allen,defensive,4,4,1.0,0,0,2,0
+WSH,Quan Martin,defensive,4,2,0.0,0,0,0,0
+WSH,John Bates,defensive,2,2,0.0,0,0,0,0
+WSH,Percy Butler,defensive,9,6,0.0,1,1,0,0

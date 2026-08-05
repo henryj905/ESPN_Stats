@@ -1,0 +1,37 @@
+team,player,category,YDS,AVG,TD,INT,SACKS,COMP,ATT
+ARI,Jacoby Brissett,passing,0,0.0,0,0,0,0,1
+ARI,Kyler Murray,passing,220,7.1,0,0,3,23,31
+BAL,Cooper Rush,passing,179,9.0,0,3,1,14,20
+BUF,Josh Allen,passing,253,8.2,2,1,1,22,31
+CAR,Bryce Young,passing,198,6.6,2,1,3,19,30
+CIN,Jake Browning,passing,251,6.3,3,3,2,26,40
+CLE,Dillon Gabriel,passing,190,5.8,2,0,2,19,33
+DAL,Dak Prescott,passing,237,8.2,4,0,1,18,29
+DEN,Bo Nix,passing,242,6.2,1,0,2,24,39
+DET,David Montgomery,passing,3,3.0,1,0,0,1,1
+DET,Jared Goff,passing,258,11.2,3,0,4,19,23
+HOU,Davis Mills,passing,23,5.8,0,0,0,2,4
+HOU,C.J. Stroud,passing,244,9.0,4,0,2,23,27
+IND,Daniel Jones,passing,212,7.3,2,0,0,20,29
+IND,Anthony Richardson Sr.,passing,9,4.5,0,0,0,1,2
+IND,Tyler Warren,passing,0,0.0,0,0,0,0,1
+JAX,Trevor Lawrence,passing,221,8.8,1,1,3,18,25
+KC,Patrick Mahomes,passing,318,7.8,1,1,0,29,41
+LAC,Trey Lance,passing,44,11.0,0,0,1,3,4
+LAC,Justin Herbert,passing,166,5.7,1,1,4,22,29
+LAR,Matthew Stafford,passing,389,8.3,3,0,1,30,47
+LV,Geno Smith,passing,228,6.3,0,2,4,25,36
+MIA,Tua Tagovailoa,passing,256,7.1,3,0,3,27,36
+MIN,Cam Akers,passing,32,32.0,1,0,0,1,1
+MIN,Carson Wentz,passing,236,6.9,1,0,3,25,34
+NE,Drake Maye,passing,273,9.1,0,0,4,22,30
+NO,Spencer Rattler,passing,225,7.5,1,0,0,21,31
+NO,Taysom Hill,passing,19,19.0,0,0,0,1,1
+NYG,Jaxson Dart,passing,202,5.1,2,2,1,26,40
+NYJ,Justin Fields,passing,283,6.2,2,0,5,32,46
+PHI,Jalen Hurts,passing,280,7.4,2,0,6,23,38
+SEA,Sam Darnold,passing,341,10.0,4,1,0,28,34
+SF,Mac Jones,passing,342,7.0,2,0,1,33,49
+TB,Baker Mayfield,passing,379,11.5,2,0,1,29,33
+TEN,Cam Ward,passing,265,6.8,0,1,2,21,39
+WSH,Jayden Daniels,passing,231,8.9,1,0,1,15,26

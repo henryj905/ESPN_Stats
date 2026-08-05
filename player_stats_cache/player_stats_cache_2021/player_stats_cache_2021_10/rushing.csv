@@ -1,0 +1,120 @@
+team,player,category,CAR,YDS,AVG,TD,LONG
+ARI,Colt McCoy,rushing,1,-1,-1.0,0,-1
+ARI,Rondale Moore,rushing,1,1,1.0,0,1
+ARI,Chris Streveler,rushing,2,4,2.0,0,4
+ARI,Eno Benjamin,rushing,6,22,3.7,0,9
+ARI,James Conner,rushing,10,39,3.9,1,11
+ATL,Wayne Gallman,rushing,15,55,3.7,0,17
+ATL,Keith Smith,rushing,1,5,5.0,0,5
+ATL,Mike Davis,rushing,4,18,4.5,0,7
+ATL,Cordarrelle Patterson,rushing,4,25,6.3,0,14
+BAL,Lamar Jackson,rushing,9,39,4.3,0,11
+BAL,Le'Veon Bell,rushing,3,1,0.3,0,1
+BAL,Devin Duvernay,rushing,1,19,19.0,0,19
+BAL,Devonta Freeman,rushing,10,35,3.5,0,12
+BUF,Davis Webb,rushing,2,-3,-1.5,0,-1
+BUF,Josh Allen,rushing,2,3,1.5,0,4
+BUF,Isaiah McKenzie,rushing,2,17,8.5,1,9
+BUF,Zack Moss,rushing,7,27,3.9,1,11
+BUF,Matt Breida,rushing,3,28,9.3,1,15
+BUF,Devin Singletary,rushing,7,43,6.1,1,15
+BUF,Emmanuel Sanders,rushing,1,24,24.0,0,24
+CAR,PJ Walker,rushing,3,6,2.0,0,5
+CAR,Cam Newton,rushing,3,14,4.7,1,8
+CAR,Ameer Abdullah,rushing,9,24,2.7,0,15
+CAR,Chuba Hubbard,rushing,9,27,3.0,1,16
+CAR,Christian McCaffrey,rushing,13,95,7.3,0,15
+CLE,Johnny Stanton IV,rushing,1,0,0.0,0,0
+CLE,D'Ernest Johnson,rushing,19,99,5.2,0,24
+DAL,Cooper Rush,rushing,3,-6,-2.0,0,-2
+DAL,CeeDee Lamb,rushing,1,12,12.0,0,12
+DAL,Dak Prescott,rushing,2,5,2.5,1,4
+DAL,Corey Clement,rushing,6,20,3.3,0,6
+DAL,Tony Pollard,rushing,11,42,3.8,0,15
+DAL,Ezekiel Elliott,rushing,14,41,2.9,2,9
+DEN,Melvin Gordon III,rushing,9,45,5.0,1,15
+DEN,Javonte Williams,rushing,8,48,6.0,0,20
+DEN,Jerry Jeudy,rushing,1,3,3.0,0,3
+DET,Jason Cabinda,rushing,1,2,2.0,0,2
+DET,Godwin Igwebuike,rushing,2,56,28.0,1,42
+DET,D'Andre Swift,rushing,33,130,3.9,0,21
+DET,Jermar Jefferson,rushing,3,41,13.7,1,28
+GB,Patrick Taylor Jr.,rushing,2,7,3.5,0,5
+GB,Aaron Rodgers,rushing,2,8,4.0,0,8
+GB,Aaron Jones Sr.,rushing,7,25,3.6,0,6
+GB,AJ Dillon,rushing,21,66,3.1,2,11
+IND,Carson Wentz,rushing,4,-1,-0.3,0,2
+IND,Nyheim Hines,rushing,2,12,6.0,0,9
+IND,Jonathan Taylor,rushing,21,116,5.5,1,34
+JAX,Laviska Shenault Jr.,rushing,2,6,3.0,0,5
+JAX,Jamal Agnew,rushing,3,79,26.3,1,66
+JAX,Trevor Lawrence,rushing,5,33,6.6,0,12
+JAX,Carlos Hyde,rushing,2,4,2.0,0,5
+JAX,James Robinson,rushing,12,57,4.8,1,18
+KC,Darrel Williams,rushing,11,43,3.9,0,21
+KC,Chad Henne,rushing,2,-2,-1.0,0,-1
+KC,Mecole Hardman Jr.,rushing,1,3,3.0,0,3
+KC,Blake Bell,rushing,1,3,3.0,0,3
+KC,Derrick Gore,rushing,6,19,3.2,0,5
+KC,Jerick McKinnon,rushing,3,26,8.7,0,18
+KC,Tyreek Hill,rushing,1,2,2.0,0,2
+LAC,Justin Herbert,rushing,2,22,11.0,0,17
+LAC,Larry Rountree III,rushing,5,10,2.0,1,5
+LAC,Joshua Kelley,rushing,1,6,6.0,0,6
+LAC,Austin Ekeler,rushing,11,44,4.0,0,9
+LAR,Matthew Stafford,rushing,1,1,1.0,0,1
+LAR,Sony Michel,rushing,4,20,5.0,0,7
+LAR,Darrell Henderson Jr.,rushing,5,31,6.2,0,11
+LV,Kenyan Drake,rushing,4,16,4.0,0,12
+LV,Josh Jacobs,rushing,7,16,2.3,0,5
+LV,Derek Carr,rushing,3,18,6.0,0,9
+MIA,Myles Gaskin,rushing,14,31,2.2,0,11
+MIA,Tua Tagovailoa,rushing,3,0,0.0,1,1
+MIA,Jacoby Brissett,rushing,1,4,4.0,0,4
+MIA,Salvon Ahmed,rushing,2,6,3.0,0,4
+MIA,Albert Wilson,rushing,2,19,9.5,0,14
+MIN,Dalvin Cook,rushing,24,94,3.9,1,12
+MIN,Alexander Mattison,rushing,4,16,4.0,0,7
+MIN,Kirk Cousins,rushing,4,-3,-0.8,0,4
+MIN,Justin Jefferson,rushing,1,-4,-4.0,0,-4
+NE,J.J. Taylor,rushing,6,11,1.8,0,3
+NE,Brian Hoyer,rushing,2,-2,-1.0,0,-1
+NE,Brandon Bolden,rushing,3,32,10.7,0,22
+NE,Rhamondre Stevenson,rushing,20,100,5.0,2,18
+NE,Kendrick Bourne,rushing,3,43,14.3,0,17
+NO,Dwayne Washington,rushing,2,8,4.0,0,4
+NO,Deonte Harty,rushing,1,6,6.0,0,6
+NO,Ty Montgomery II,rushing,1,2,2.0,0,2
+NO,Taysom Hill,rushing,3,23,7.7,0,10
+NO,Mark Ingram II,rushing,14,47,3.4,1,13
+NYJ,Tevin Coleman,rushing,4,29,7.3,0,15
+NYJ,Ty Johnson,rushing,2,2,1.0,0,2
+NYJ,Michael Carter,rushing,16,39,2.4,1,8
+PHI,Boston Scott,rushing,11,81,7.4,0,23
+PHI,Jalen Hurts,rushing,13,55,4.2,0,31
+PHI,Kenny Gainwell,rushing,2,5,2.5,0,5
+PHI,Jalen Reagor,rushing,1,-8,-8.0,0,-8
+PHI,Jordan Howard,rushing,12,83,6.9,0,25
+PIT,Mason Rudolph,rushing,4,36,9.0,0,26
+PIT,Benny Snell Jr.,rushing,1,4,4.0,0,4
+PIT,Najee Harris,rushing,26,105,4.0,0,12
+SEA,Russell Wilson,rushing,5,32,6.4,0,12
+SEA,Travis Homer,rushing,1,2,2.0,0,2
+SEA,Alex Collins,rushing,10,41,4.1,0,10
+SF,Deebo Samuel,rushing,5,36,7.2,1,9
+SF,Elijah Mitchell,rushing,27,91,3.4,0,17
+SF,Jeff Wilson Jr.,rushing,10,28,2.8,0,6
+SF,Jimmy Garoppolo,rushing,2,1,0.5,0,2
+TB,Leonard Fournette,rushing,11,47,4.3,0,8
+TB,Tom Brady,rushing,1,2,2.0,0,2
+TB,Giovani Bernard,rushing,1,4,4.0,0,4
+TEN,Ryan Tannehill,rushing,5,1,0.2,1,2
+TEN,Jeremy McNichols,rushing,4,7,1.8,0,4
+TEN,A.J. Brown,rushing,1,7,7.0,0,7
+TEN,Adrian Peterson,rushing,8,21,2.6,0,6
+TEN,D'Onta Foreman,rushing,11,30,2.7,0,6
+WSH,J.D. McKissic,rushing,2,4,2.0,0,2
+WSH,DeAndre Carter,rushing,1,4,4.0,0,4
+WSH,Antonio Gibson,rushing,24,64,2.7,2,15
+WSH,Taylor Heinicke,rushing,3,15,5.0,0,10
+WSH,Jaret Patterson,rushing,4,7,1.8,0,5

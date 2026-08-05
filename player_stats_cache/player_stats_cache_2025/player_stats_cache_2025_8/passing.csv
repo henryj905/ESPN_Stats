@@ -1,0 +1,34 @@
+team,player,category,YDS,AVG,TD,INT,SACKS,COMP,ATT
+ATL,Kirk Cousins,passing,173,5.6,0,0,1,21,31
+BAL,Tyler Huntley,passing,186,8.5,1,0,2,17,22
+BUF,Josh Allen,passing,163,8.6,1,0,2,12,19
+BUF,Mitchell Trubisky,passing,22,5.5,0,0,0,2,4
+CAR,Andy Dalton,passing,175,7.3,0,1,7,16,24
+CHI,Caleb Williams,passing,285,7.5,0,1,1,25,38
+CIN,Joe Flacco,passing,223,6.6,2,0,1,21,34
+CLE,Dillon Gabriel,passing,156,4.5,2,2,1,21,35
+DAL,Joe Milton III,passing,58,14.5,1,0,0,3,4
+DAL,Dak Prescott,passing,188,6.1,0,2,2,19,31
+DEN,Bo Nix,passing,247,8.5,4,1,0,19,29
+GB,Jordan Love,passing,360,9.7,3,0,0,29,37
+HOU,C.J. Stroud,passing,318,8.2,2,1,0,30,39
+IND,Riley Leonard,passing,0,0.0,0,0,0,0,2
+IND,Daniel Jones,passing,272,9.4,3,0,3,21,29
+KC,Patrick Mahomes,passing,299,8.8,3,2,3,25,34
+LAC,Justin Herbert,passing,227,9.1,3,1,2,18,25
+MIA,Tua Tagovailoa,passing,205,7.9,4,0,1,20,26
+MIA,Zach Wilson,passing,0,0.0,0,0,0,1,1
+MIN,Carson Wentz,passing,144,5.3,1,1,5,15,27
+MIN,Max Brosmer,passing,13,3.3,0,0,0,3,4
+NE,Drake Maye,passing,282,11.8,3,1,6,18,24
+NO,Spencer Rattler,passing,136,6.5,0,1,3,15,21
+NO,Tyler Shough,passing,128,4.3,0,1,2,17,30
+NYG,Jaxson Dart,passing,193,8.0,1,0,5,14,24
+NYJ,Justin Fields,passing,244,7.6,1,0,0,21,32
+NYJ,Breece Hall,passing,4,4.0,1,0,0,1,1
+PHI,Jalen Hurts,passing,179,9.0,4,0,4,15,20
+PIT,Aaron Rodgers,passing,219,6.1,2,0,3,24,36
+SF,Mac Jones,passing,193,6.0,2,1,2,19,32
+TB,Baker Mayfield,passing,152,6.3,0,0,3,15,24
+TEN,Cam Ward,passing,259,6.8,1,1,4,22,38
+WSH,Marcus Mariota,passing,213,7.1,1,2,2,21,30

@@ -1,0 +1,37 @@
+team,player,category,INT,YDS,TD
+ARI,Marco Wilson,interceptions,2,39,0
+BUF,Jaquan Johnson,interceptions,1,0,0
+CHI,Kyler Gordon,interceptions,1,36,0
+CHI,Nicholas Morrow,interceptions,1,5,0
+CLE,Grant Delpit,interceptions,1,40,0
+DAL,Jayron Kearse,interceptions,1,2,0
+DAL,DaRon Bland,interceptions,1,0,0
+GB,Rasul Douglas,interceptions,1,5,0
+GB,De'Vondre Campbell,interceptions,1,14,0
+GB,Jaire Alexander,interceptions,1,23,0
+HOU,Jalen Pitre,interceptions,1,6,0
+HOU,Christian Harris,interceptions,1,20,0
+IND,Rodney Thomas II,interceptions,1,5,0
+JAX,Devin Lloyd,interceptions,1,19,0
+JAX,Andre Cisco,interceptions,0,4,0
+KC,Juan Thornhill,interceptions,1,0,0
+LAC,Derwin James Jr.,interceptions,1,0,0
+LAC,Asante Samuel Jr.,interceptions,1,11,0
+LAC,Michael Davis,interceptions,1,30,0
+LAR,Jalen Ramsey,interceptions,1,0,0
+LAR,Bobby Wagner,interceptions,1,13,0
+LAR,Cobie Durant,interceptions,2,100,1
+LV,Denzel Perryman,interceptions,1,24,0
+MIA,Kader Kohou,interceptions,1,0,0
+MIN,Patrick Peterson,interceptions,1,11,0
+NE,Marcus Jones,interceptions,1,69,1
+NE,Devin McCourty,interceptions,1,0,0
+NO,Daniel Sorensen,interceptions,1,36,0
+PHI,Josh Sweat,interceptions,1,42,1
+PIT,Minkah Fitzpatrick,interceptions,1,0,0
+PIT,Cameron Sutton,interceptions,1,0,0
+PIT,Arthur Maulet,interceptions,1,12,0
+SF,Jimmie Ward,interceptions,1,0,0
+TB,Keanu Neal,interceptions,1,0,0
+TEN,Jack Gibbens,interceptions,1,7,0
+WSH,Darrick Forrest,interceptions,1,0,0

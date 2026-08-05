@@ -1,0 +1,39 @@
+team,player,category,YDS,AVG,TD,INT,SACKS,COMP,ATT
+ARI,Kyler Murray,passing,142,6.5,1,0,4,16,22
+ATL,Kirk Cousins,passing,238,6.8,0,1,1,21,35
+BAL,Josh Johnson,passing,1,1.0,0,0,0,1,1
+BAL,Lamar Jackson,passing,156,8.7,2,0,1,13,18
+BUF,Mitchell Trubisky,passing,2,1.0,0,0,0,1,2
+BUF,Josh Allen,passing,180,6.2,0,0,3,16,29
+CAR,Johnny Hekker,passing,0,0.0,0,0,0,0,1
+CAR,Andy Dalton,passing,220,5.5,2,1,0,25,40
+CHI,Caleb Williams,passing,157,6.8,1,0,3,17,23
+CIN,Joe Burrow,passing,232,7.5,2,1,0,22,31
+CLE,Deshaun Watson,passing,176,5.5,1,1,3,24,32
+DAL,Dak Prescott,passing,221,8.2,2,0,1,22,27
+DEN,Bo Nix,passing,60,2.4,1,0,0,12,25
+DET,Jared Goff,passing,292,16.2,2,0,3,18,18
+DET,Amon-Ra St. Brown,passing,7,7.0,1,0,0,1,1
+GB,Jordan Love,passing,389,7.2,4,3,1,32,54
+HOU,C.J. Stroud,passing,345,8.6,2,0,2,27,40
+IND,Anthony Richardson Sr.,passing,71,17.8,0,0,0,3,4
+IND,Joe Flacco,passing,168,6.5,2,0,2,16,26
+JAX,Trevor Lawrence,passing,169,5.1,2,0,1,18,33
+KC,Patrick Mahomes,passing,245,8.4,1,1,3,19,29
+LAC,Justin Herbert,passing,179,6.6,1,0,2,16,27
+LAR,Matthew Stafford,passing,224,7.7,0,1,3,20,29
+LV,Gardner Minshew II,passing,130,5.4,0,0,2,14,24
+MIA,Tyler Huntley,passing,96,4.4,0,0,2,14,22
+MIN,Sam Darnold,passing,275,9.8,3,1,2,20,28
+NE,Jacoby Brissett,passing,168,5.3,1,1,6,19,32
+NO,Derek Carr,passing,239,6.6,0,1,1,28,36
+NYG,Daniel Jones,passing,281,7.0,0,1,1,29,40
+NYJ,Aaron Rodgers,passing,225,5.4,0,0,5,24,42
+PHI,Jalen Hurts,passing,158,5.3,1,0,6,18,30
+PIT,Justin Fields,passing,312,9.2,1,0,4,22,34
+SEA,Geno Smith,passing,395,7.1,1,1,3,38,56
+SF,Brock Purdy,passing,288,10.7,1,1,1,15,27
+TB,Baker Mayfield,passing,347,7.4,2,0,2,30,47
+TEN,Mason Rudolph,passing,85,5.0,0,0,1,9,17
+TEN,Will Levis,passing,25,6.3,0,1,0,3,4
+WSH,Jayden Daniels,passing,233,7.8,1,1,0,26,30

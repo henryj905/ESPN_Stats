@@ -1,0 +1,37 @@
+team,player,category,YDS,AVG,TD,INT,SACKS,COMP,ATT
+ARI,Jacoby Brissett,passing,249,6.2,3,1,2,27,40
+ATL,Kirk Cousins,passing,373,8.5,3,0,1,30,44
+BAL,Lamar Jackson,passing,150,12.5,2,1,4,8,12
+BUF,Josh Allen,passing,193,6.9,3,0,2,19,28
+CAR,Bryce Young,passing,163,6.8,1,0,1,15,24
+CHI,Caleb Williams,passing,242,8.6,2,0,3,17,28
+CIN,Joe Burrow,passing,225,5.8,0,2,3,25,39
+CLE,Shedeur Sanders,passing,177,5.1,0,3,5,18,35
+DAL,Dak Prescott,passing,294,7.7,0,0,2,23,38
+DEN,Bo Nix,passing,302,8.9,4,0,0,23,34
+DET,Jared Goff,passing,338,8.2,3,0,1,25,41
+GB,Jordan Love,passing,276,6.9,1,2,3,24,40
+HOU,C.J. Stroud,passing,260,9.0,3,0,1,22,29
+IND,Philip Rivers,passing,120,4.4,1,1,1,18,27
+JAX,Trevor Lawrence,passing,330,10.3,5,0,0,20,32
+KC,Patrick Mahomes,passing,189,6.8,0,1,5,16,28
+KC,Gardner Minshew II,passing,22,4.4,0,1,0,3,5
+LAC,Justin Herbert,passing,210,7.2,1,1,4,19,29
+LAR,Matthew Stafford,passing,368,9.7,2,1,2,24,38
+LV,Kenny Pickett,passing,64,2.6,0,1,4,15,25
+MIA,Tua Tagovailoa,passing,253,9.0,2,1,4,22,28
+MIN,J.J. McCarthy,passing,250,10.4,2,1,0,15,24
+NE,Drake Maye,passing,155,6.7,0,1,3,14,23
+NO,Tyler Shough,passing,272,8.5,1,0,5,24,32
+NO,Spencer Rattler,passing,0,0.0,0,0,0,0,1
+NYG,Jaxson Dart,passing,246,6.8,2,1,1,20,36
+NYG,Jameis Winston,passing,0,0.0,0,0,0,0,1
+NYJ,Brady Cook,passing,176,5.3,1,3,3,22,33
+PHI,Jalen Hurts,passing,175,11.7,3,0,1,12,15
+PHI,Tanner McKee,passing,33,11.0,0,0,0,3,3
+PIT,Aaron Rodgers,passing,224,8.3,2,0,3,23,27
+SEA,Sam Darnold,passing,271,7.5,0,0,1,22,36
+SF,Brock Purdy,passing,295,9.8,3,0,2,23,30
+TB,Baker Mayfield,passing,277,8.1,2,1,5,19,34
+TEN,Cam Ward,passing,170,5.9,2,0,0,18,29
+WSH,Marcus Mariota,passing,211,11.1,1,0,2,10,19

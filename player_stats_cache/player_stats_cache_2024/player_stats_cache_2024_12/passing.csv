@@ -1,0 +1,35 @@
+team,player,category,YDS,AVG,TD,INT,SACKS,COMP,ATT
+ARI,Kyler Murray,passing,285,7.7,0,1,5,24,37
+BAL,Lamar Jackson,passing,177,8.0,2,0,1,16,22
+CAR,Bryce Young,passing,263,7.5,1,0,2,21,35
+CHI,Caleb Williams,passing,340,7.2,2,0,3,32,47
+CHI,DJ Moore,passing,0,0.0,0,0,0,0,1
+CLE,Jameis Winston,passing,219,8.1,0,1,1,18,27
+DAL,Cooper Rush,passing,247,7.7,2,0,1,24,32
+DEN,Bo Nix,passing,273,6.5,2,0,1,25,42
+DET,Jared Goff,passing,269,7.5,0,0,3,26,36
+GB,Jordan Love,passing,163,7.1,2,0,2,13,23
+HOU,C.J. Stroud,passing,247,7.5,2,2,4,20,33
+IND,Anthony Richardson Sr.,passing,172,6.1,0,0,0,11,28
+KC,Patrick Mahomes,passing,269,7.3,3,0,5,27,37
+LAC,Justin Herbert,passing,218,6.1,0,0,4,21,36
+LAR,Matthew Stafford,passing,243,6.8,2,0,5,24,36
+LV,Gardner Minshew II,passing,230,5.5,1,1,3,25,42
+LV,AJ Cole,passing,34,34.0,0,0,0,1,1
+LV,Desmond Ridder,passing,64,6.4,0,0,2,5,10
+MIA,Tua Tagovailoa,passing,317,7.9,4,0,2,29,40
+MIN,Nick Mullens,passing,14,14.0,0,0,0,1,1
+MIN,Sam Darnold,passing,330,9.7,2,0,3,22,34
+NE,Kendrick Bourne,passing,0,0.0,0,0,0,0,1
+NE,Drake Maye,passing,222,6.0,1,1,4,22,37
+NYG,Tommy DeVito,passing,189,6.1,0,0,4,21,31
+NYG,Drew Lock,passing,3,3.0,0,0,0,1,1
+PHI,Jalen Hurts,passing,179,8.1,1,0,1,15,22
+PIT,Russell Wilson,passing,270,9.6,1,0,4,21,28
+PIT,Justin Fields,passing,0,0.0,0,0,0,0,1
+SEA,Geno Smith,passing,254,8.2,1,1,5,22,31
+SF,Brandon Allen,passing,199,6.9,1,1,2,17,29
+TB,Baker Mayfield,passing,294,9.8,0,0,0,24,30
+TEN,Tyler Boyd,passing,0,0.0,0,0,0,0,1
+TEN,Will Levis,passing,278,11.6,2,1,8,18,24
+WSH,Jayden Daniels,passing,275,7.2,2,2,4,25,38

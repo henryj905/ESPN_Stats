@@ -1,0 +1,27 @@
+team,player,category,INT,YDS,TD
+ARI,Budda Baker,interceptions,1,17,0
+ATL,Jaylinn Hawkins,interceptions,1,11,0
+BUF,Greg Rousseau,interceptions,1,3,0
+BUF,Micah Hyde,interceptions,1,26,1
+CAR,Donte Jackson,interceptions,1,0,0
+CHI,DeAndre Houston-Carson,interceptions,1,0,0
+CIN,Chidobe Awuzie,interceptions,1,42,0
+DAL,Trevon Diggs,interceptions,1,18,0
+DAL,Anthony Brown,interceptions,1,45,1
+DET,Alex Anzalone,interceptions,1,0,0
+GB,De'Vondre Campbell,interceptions,1,13,0
+GB,Adrian Amos,interceptions,1,0,0
+HOU,Lonnie Johnson Jr.,interceptions,1,0,0
+LAR,Nick Scott,interceptions,1,3,0
+LAR,Troy Reeder,interceptions,1,0,0
+MIN,Eric Kendricks,interceptions,1,22,0
+NO,P.J. Williams,interceptions,1,0,0
+NO,Paulson Adebo,interceptions,1,0,0
+NYG,Lorenzo Carter,interceptions,1,1,0
+PHI,Darius Slay,interceptions,2,21,0
+PHI,Steven Nelson,interceptions,1,4,0
+PIT,James Pierre,interceptions,1,0,0
+SEA,Quandre Diggs,interceptions,1,0,0
+TB,Jamel Dean,interceptions,1,6,0
+TEN,Kevin Byard,interceptions,1,0,0
+WSH,Cole Holcomb,interceptions,1,23,0
