@@ -63,9 +63,10 @@ def compare_defensive_pd(TF_list):
 
 
 def compare_defensive_qb_hits(TF_list):
+
     if 'defensive' in TF_list:
         list = TF_list['defensive']
-        list = list['QB HITS']
+        list = list['QB HTS']
         list = list.drop(columns=['category'])
         if list.iloc[0] == True:
             return True

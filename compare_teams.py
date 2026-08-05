@@ -235,23 +235,23 @@ def get_score(year, week, team, multipliers=None):
     else:
         pass
 
-    if fumbles.compare_fumbles_fum(comparison) == True:
+    if fumbles.compare_fumbles_fum(comparison) == False:
         main_score += 1 * multipliers['fum']
-    elif fumbles.compare_fumbles_fum(comparison) == False:
+    elif fumbles.compare_fumbles_fum(comparison) == True:
         opp_score += 1 * multipliers['fum']
     else:
         pass
 
-    if fumbles.compare_fumbles_lost(comparison) == True:
+    if fumbles.compare_fumbles_lost(comparison) == False:
         main_score += 1 * multipliers['lost']
-    elif fumbles.compare_fumbles_lost(comparison) == False:
+    elif fumbles.compare_fumbles_lost(comparison) == True:
         opp_score += 1 * multipliers['lost']
     else:
         pass
 
-    if punting.compare_punting_no(comparison) == True:
+    if punting.compare_punting_no(comparison) == False:
         main_score += 1 * multipliers['no']
-    elif punting.compare_punting_no(comparison) == False:
+    elif punting.compare_punting_no(comparison) == True:
         opp_score += 1 * multipliers['no']
     else:
         pass
@@ -361,16 +361,16 @@ def get_score(year, week, team, multipliers=None):
     else:
         pass
 
-    if passing.compare_passing_int(comparison) == True:
+    if passing.compare_passing_int(comparison) == False:
         main_score += 1 * multipliers['paint']
-    elif passing.compare_passing_int(comparison) == False:
+    elif passing.compare_passing_int(comparison) == True:
         opp_score += 1 * multipliers['paint']
     else:
         pass
 
-    if passing.compare_passing_sacks(comparison) == True:
+    if passing.compare_passing_sacks(comparison) == False:
         main_score += 1 * multipliers['pasacks']
-    elif passing.compare_passing_sacks(comparison) == False:
+    elif passing.compare_passing_sacks(comparison) == True:
         opp_score += 1 * multipliers['pasacks']
     else:
         pass
@@ -493,5 +493,5 @@ def get_score(year, week, team, multipliers=None):
         opp_score += 1 * multipliers['inttd']
     else:
         pass
-
+    print("Live:", main_score, opp_score)
     return main_score, opp_score

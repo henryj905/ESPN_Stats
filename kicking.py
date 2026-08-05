@@ -40,7 +40,7 @@ def compare_kicking_pts(TF_list):
 def compare_kicking_fg_made(TF_list):
     if 'kicking' in TF_list:
         list = TF_list['kicking']
-        list = list['FG MADE']
+        list = list['FG_MADE']
         list = list.drop(columns=['category'])
         if list.iloc[0] == True:
             return True
@@ -53,7 +53,7 @@ def compare_kicking_fg_made(TF_list):
 def compare_kicking_fg_att(TF_list):
     if 'kicking' in TF_list:
         list = TF_list['kicking']
-        list = list['FG ATT']
+        list = list['FG_ATT']
         list = list.drop(columns=['category'])
         if list.iloc[0] == True:
             return True
@@ -66,7 +66,7 @@ def compare_kicking_fg_att(TF_list):
 def compare_kicking_ex_made(TF_list):
     if 'kicking' in TF_list:
         list = TF_list['kicking']
-        list = list['EX MADE']
+        list = list['EX_MADE']
         list = list.drop(columns=['category'])
         if list.iloc[0] == True:
             return True
@@ -79,7 +79,7 @@ def compare_kicking_ex_made(TF_list):
 def compare_kicking_ex_att(TF_list):
     if 'kicking' in TF_list:
         list = TF_list['kicking']
-        list = list['EX MADE']
+        list = list['EX_ATT']
         list = list.drop(columns=['category'])
         if list.iloc[0] == True:
             return True
